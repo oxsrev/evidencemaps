@@ -1,0 +1,39 @@
+{
+    "name": "Palaeo-environmental archives of Central America",
+    "description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
+    "publication": "",
+    "projection": "standard",
+    "pointDisplay": "single",
+    "displayUnit": "Proxy",
+    "clusterDistance": 150,
+    "mapCentre": [ -80,15],
+    "mapZoomLevel": 8,
+    "maxPieSize": 180,
+    "baselayers": [
+        { "file": "world50", "name": "Countries", "description": "Political boundaries at 50m resolution."}
+    ],
+    "fields": [
+        { "column": "Proxy", "name": "Proxy Measure", "datatype": "string", "description": ""},
+        { "column": "Type_of_Ar", "name": "Environmental Archive", "datatype": "string", "description": ""},
+        { "column": "BIOME_NAME", "name": "Biome", "datatype": "string", "description": "As per WWF biomes"},
+        { "column": "ECO_NAME", "name": "Ecoregion", "datatype": "string", "description": "As per WWF biomes"},
+        { "column": "Authors", "name": "Author", "datatype": "string", "description": ""},
+        { "column": "Journal", "name": "Publication Journal", "datatype": "string", "description": ""},
+        { "column": "Country", "name": "Country", "datatype": "string", "description": ""},
+        { "column": "DEM 30m", "name": "Elevation", "datatype": "float", "unit": "metres above sea level", "description": ""},
+        { "column": "Max", "name": "Age: Newest", "datatype": "float", "unit": "year BCE/CE", "description": ""},
+        { "column": "Min", "name": "Age: Oldest", "datatype": "float", "unit": "year BCE/CE", "description": ""},
+        { "column": "Average Annual Rainfall (mm)", "name": "Average Annual Rainfall", "datatype": "float", "unit": "mm", "description": ""},
+        { "column": "Wettest Month (mm)", "name": "Wettest Month", "datatype": "float", "unit": "mm", "description": ""},
+        { "column": "Driest Month (mm)", "name": "Dryest Month", "datatype": "float", "unit": "mm", "description": ""},
+        { "column": "Wettest Quarter (mm)", "name": "Wettest Quarter", "datatype": "float", "unit": "mm", "description": ""},
+        { "column": "Driest Quarter (mm)", "name": "Driest Quarter", "datatype": "float", "unit": "mm", "description": ""},
+        { "column": "Coefficient of Variance", "name": "Coefficient of Variance", "datatype": "float", "unit": "cv", "description": "Ratio of the standard deviation" }
+    ],
+    "logos": [
+        "nerc",
+        "niu",
+        "seh",
+        "oxford"
+    ]
+}

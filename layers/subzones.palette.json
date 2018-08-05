@@ -1,30 +1,30 @@
 [
     {
-        "Name": "Glacier",
-        "Hex": "e1e1e1"
+        "name": "Glacier",
+        "hex": "e1e1e1"
     },
     {
-        "Name": "Oroarctic",
-        "Hex": "a8baad"
+        "name": "Oroarctic",
+        "hex": "a8baad"
     },
     {
-        "Name": "A",
-        "Hex": "f0ad70"
+        "name": "A",
+        "hex": "f0ad70"
     },
     {
-        "Name": "B",
-        "Hex": "edcc71"
+        "name": "B",
+        "hex": "edcc71"
     },
     {
-        "Name": "C",
-        "Hex": "efee70"
+        "name": "C",
+        "hex": "efee70"
     },
     {
-        "Name": "D",
-        "Hex": "c3d370"
+        "name": "D",
+        "hex": "c3d370"
     },
     {
-        "Name": "E",
-        "Hex": "9bb96f"
+        "name": "E",
+        "hex": "9bb96f"
     }
 ]

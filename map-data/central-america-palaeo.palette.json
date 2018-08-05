@@ -1,0 +1,84 @@
+{
+    "Proxy": [{
+        "name": "Bulk Density",
+        "hex": "FFFF00"
+    }, {
+        "name": "Charchoal (Macro)",
+        "hex": "aaffc3"
+    }, {
+        "name": "Charcoal (Micro)",
+        "hex": "808000"
+    }, {
+        "name": "Charcoal (Undefined)",
+        "hex": "46f0f0"
+    }, {
+        "name": "Chironomids",
+        "hex": "e6194b"
+    }, {
+        "name": "dC13",
+        "hex": "ebc2fd"
+    }, {
+        "name": "Dendro",
+        "hex": "FFFFD1"
+    }, {
+        "name": "Diatoms",
+        "hex": "0082c8"
+    }, {
+        "name": "dN15",
+        "hex": "8ee458"
+    }, {
+        "name": "dO18",
+        "hex": "fff"
+    }, {
+        "name": "Foraminifera",
+        "hex": "fabebe"
+    }, {
+        "name": "Grain Size Analysis",
+        "hex": "008080"
+    }, {
+        "name": "Leaf Wax Lipids",
+        "hex": "D2B48C"
+    }, {
+        "name": "LOI (Carbonates)",
+        "hex": "000"
+    }, {
+        "name": "LOI (Organic)",
+        "hex": "808080"
+    }, {
+        "name": "Macro Fossils",
+        "hex": "aa6e28"
+    }, {
+        "name": "Magnetic Succeptibility",
+        "hex": "f58231"
+    }, {
+        "name": "Micro Morphology",
+        "hex": "ffd8b1"
+    }, {
+        "name": "Molluscs",
+        "hex": "f032e6"
+    }, {
+        "name": "Ostracodea",
+        "hex": "911eb4"
+    }, {
+        "name": "Phytoliths",
+        "hex": "000080"
+    }, {
+        "name": "Point Geochemistry",
+        "hex": "800000"
+    }, {
+        "name": "Pollen",
+        "hex": "8ee458"
+    }, {
+        "name": "Stratigraphic description",
+        "hex": "fff"
+    }, {
+        "name": "Testate amoebae",
+        "hex": "fff"
+    }, {
+        "name": "Thecamoebians",
+        "hex": "fff"
+    }, {
+        "name": "XRF",
+        "hex": "fff"
+    }]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "The Environmental, Socio-Economic, and Health Impacts of Wood Fuel Value Chains in Sub-Saharan Africa",
+    "description": "In Sub-Saharan Africa (SSA), the production and use of woodfuel remains an important socio-economic activity with more than 70% of the population relying on woodfuel as their primary household energy source. Despite their socio-economic significance, woodfuel value chains are often viewed negatively due to their association with detrimental health and environmental impacts. However, the lack of sound evidence and limited understanding of the role of contextual factors in influencing the various impacts of woodfuel value chains have prevented the formulation of properly guided policy interventions. This systematic map is to provide a comprehensive review of the environmental, socio-economic, and health impacts of woodfuel value chains across SSA. Authors:  Phosiso Sola,  Paolo Omar Cerutti,  Wen Zhou,  Denis Gautier, Miyuki Iiyama,  Jolien Schure,  Audrey Chenevoy,  Jummai Yila,  Vanessa Dufe,  Robert Nasi, Gill Shepherd, Gillian Petrokofsky",
+    "publication": "",
+    "projection": "standard",
+    "pointDisplay": "single",
+    "displayUnit": "Woodfuel assessed",
+    "clusterDistance": 500,
+    "mapCentre": [ 35,0],
+    "mapZoomLevel": 2.25,
+    "maxPieSize": 23,
+    "baselayers": [
+        { "file": "world50", "name": "Countries", "description": "Political boundaries at 50m resolution."}
+    ],
+    "fields": [
+        { "column": "Forest type  ", "name": "Forest type", "datatype": "string", "description": ""},
+        { "column": "Natural/planted", "name": "Natural or Planted?", "datatype": "string", "description": ""},
+        { "column": "Study outcomes", "name": "Study outcomes", "datatype": "string", "description": ""},
+        { "column": "Activity assessed", "name": "Activity assessed", "datatype": "string", "description": ""},
+        { "column": "Woodfuel assessed", "name": "Woodfuel assessed", "datatype": "string", "description": ""},
+        { "column": "Primary source of woodfuel used for domestic consumption", "name": "Primary source of domestic woodfuel", "datatype": "string", "description": ""},
+        { "column": "Primary source of woodfuel used for commercial purposes", "name": "Primary source of commercial woodfuel", "datatype": "string", "description": ""},
+        { "column": "Tenure Regime type", "name": "Tenure Regime type", "datatype": "string", "description": ""},
+        { "column": "Source of socioeconomic data", "name": "Source of socioeconomic data", "datatype": "string", "description": ""},
+        { "column": "Source of health data", "name": "Source of health data", "datatype": "string", "description": ""},
+        { "column": "Source of environmental data", "name": "Source of environmental data", "datatype": "string", "description": ""},
+
+
+        { "column": "Year published", "name": "Year published", "datatype": "float", "description": "Year of publication"},
+        { "column": "Year conducted (final year)", "name": "Year conducted (final year)", "datatype": "float", "description": "Year conducted (final year)"}
+    ],
+    "logos": [
+        "world-argoforestry-centre",
+        "dfid",
+        "cifor",
+        "oxford"
+    ]
+}

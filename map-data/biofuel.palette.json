@@ -1,0 +1,7 @@
+{
+    "Woodfuel assessed": [
+        { "name": "charcoal", "hex": "812630" },
+        { "name": "firewood", "hex": "D2BBB0" },
+        { "name": "both", "hex": "aa7070" }
+    ]
+}
