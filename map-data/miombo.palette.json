@@ -1,9 +1,0 @@
-{
-    "Category": [
-        { "name": "Oldgrowth", "hex": "FFFF00" },
-        { "name": "Postclear", "hex": "800000" },
-        { "name": "Cropland", "hex": "FFBA08" },
-        { "name": "Cultivation", "hex": "ebc4fd" },
-        { "name": "Postcult", "hex": "3F88C5" }
-    ]
-}

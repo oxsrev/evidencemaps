@@ -14,12 +14,31 @@
         "Name": "Countries",
         "Description": "Political boundaries at 50m resolution."
     }],
-    "Logos": [
-        { "File": "dfid", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" },
-        { "File": "cifor", "Name": "CIFOR", "ExternalUrl": "ox.ac.uk" },
-        { "File": "copporbelt_university", "Name": "Copporbelt University", "ExternalUrl": "ox.ac.uk" },
-        { "File": "university-zimbabwe", "Name": "University of Zimbabwe", "ExternalUrl": "ox.ac.uk" },
-        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" }
+    "Logos": [{
+            "File": "dfid",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "cifor",
+            "Name": "CIFOR",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "copporbelt_university",
+            "Name": "Copporbelt University",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "university-zimbabwe",
+            "Name": "University of Zimbabwe",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        }
     ],
     "Fields": [{
             "Column": "Study Year",
@@ -86,24 +105,24 @@
     "DataPalettes": [{
         "Column": "Category",
         "Palette": [{
-                "name": "Oldgrowth",
-                "hex": "FFFF00"
+                "Name": "Oldgrowth",
+                "Hex": "FFFF00"
             },
             {
-                "name": "Postclear",
-                "hex": "800000"
+                "Name": "Postclear",
+                "Hex": "800000"
             },
             {
-                "name": "Cropland",
-                "hex": "FFBA08"
+                "Name": "Cropland",
+                "Hex": "FFBA08"
             },
             {
-                "name": "Cultivation",
-                "hex": "ebc4fd"
+                "Name": "Cultivation",
+                "Hex": "ebc4fd"
             },
             {
-                "name": "Postcult",
-                "hex": "3F88C5"
+                "Name": "Postcult",
+                "Hex": "3F88C5"
             }
         ]
     }]

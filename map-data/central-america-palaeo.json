@@ -1,39 +1,229 @@
 {
-    "name": "Palaeo-environmental archives of Central America",
-    "description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
-    "publication": "",
-    "projection": "standard",
-    "pointDisplay": "single",
-    "displayUnit": "Proxy",
-    "clusterDistance": 150,
-    "mapCentre": [ -80,15],
-    "mapZoomLevel": 8,
-    "maxPieSize": 180,
-    "baselayers": [
-        { "file": "world50", "name": "Countries", "description": "Political boundaries at 50m resolution."}
+    "Name": "Palaeo-environmental archives of Central America",
+    "Description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Proxy",
+    "ClusterDistance": 150,
+    "MapCentre": [-80, 15],
+    "MapZoomLevel": 8,
+    "MaxPieSize": 180,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."
+    }],
+    "Fields": [{
+            "Column": "Proxy",
+            "Name": "Proxy Measure",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Type_of_Ar",
+            "Name": "Environmental Archive",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "BIOME_NAME",
+            "Name": "Biome",
+            "DataType": "string",
+            "Description": "As per WWF biomes"
+        },
+        {
+            "Column": "ECO_NAME",
+            "Name": "Ecoregion",
+            "DataType": "string",
+            "Description": "As per WWF biomes"
+        },
+        {
+            "Column": "Authors",
+            "Name": "Author",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Journal",
+            "Name": "Publication Journal",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "DEM 30m",
+            "Name": "Elevation",
+            "DataType": "float",
+            "unit": "metres above sea level",
+            "Description": ""
+        },
+        {
+            "Column": "Max",
+            "Name": "Age: Newest",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "Min",
+            "Name": "Age: Oldest",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "Average Annual Rainfall (mm)",
+            "Name": "Average Annual Rainfall",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Wettest Month (mm)",
+            "Name": "Wettest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Driest Month (mm)",
+            "Name": "Dryest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Wettest Quarter (mm)",
+            "Name": "Wettest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Driest Quarter (mm)",
+            "Name": "Driest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Coefficient of Variance",
+            "Name": "Coefficient of Variance",
+            "DataType": "float",
+            "unit": "cv",
+            "Description": "Ratio of the standard deviation"
+        }
     ],
-    "fields": [
-        { "column": "Proxy", "name": "Proxy Measure", "datatype": "string", "description": ""},
-        { "column": "Type_of_Ar", "name": "Environmental Archive", "datatype": "string", "description": ""},
-        { "column": "BIOME_NAME", "name": "Biome", "datatype": "string", "description": "As per WWF biomes"},
-        { "column": "ECO_NAME", "name": "Ecoregion", "datatype": "string", "description": "As per WWF biomes"},
-        { "column": "Authors", "name": "Author", "datatype": "string", "description": ""},
-        { "column": "Journal", "name": "Publication Journal", "datatype": "string", "description": ""},
-        { "column": "Country", "name": "Country", "datatype": "string", "description": ""},
-        { "column": "DEM 30m", "name": "Elevation", "datatype": "float", "unit": "metres above sea level", "description": ""},
-        { "column": "Max", "name": "Age: Newest", "datatype": "float", "unit": "year BCE/CE", "description": ""},
-        { "column": "Min", "name": "Age: Oldest", "datatype": "float", "unit": "year BCE/CE", "description": ""},
-        { "column": "Average Annual Rainfall (mm)", "name": "Average Annual Rainfall", "datatype": "float", "unit": "mm", "description": ""},
-        { "column": "Wettest Month (mm)", "name": "Wettest Month", "datatype": "float", "unit": "mm", "description": ""},
-        { "column": "Driest Month (mm)", "name": "Dryest Month", "datatype": "float", "unit": "mm", "description": ""},
-        { "column": "Wettest Quarter (mm)", "name": "Wettest Quarter", "datatype": "float", "unit": "mm", "description": ""},
-        { "column": "Driest Quarter (mm)", "name": "Driest Quarter", "datatype": "float", "unit": "mm", "description": ""},
-        { "column": "Coefficient of Variance", "name": "Coefficient of Variance", "datatype": "float", "unit": "cv", "description": "Ratio of the standard deviation" }
+    "Logos": [{
+            "File": "nerc",
+            "Name": "NERC",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "niu",
+            "Name": "NIU",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "seh",
+            "Name": "St Edmund Hall",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        }
     ],
-    "logos": [
-        "nerc",
-        "niu",
-        "seh",
-        "oxford"
-    ]
+    "DataPalettes": [{
+        "Column": "Proxy",
+        "Palette": [{
+            "Name": "Bulk Density",
+            "Hex": "FFFF00"
+        }, {
+            "Name": "Charchoal (Macro)",
+            "Hex": "aaffc3"
+        }, {
+            "Name": "Charcoal (Micro)",
+            "Hex": "808000"
+        }, {
+            "Name": "Charcoal (Undefined)",
+            "Hex": "46f0f0"
+        }, {
+            "Name": "Chironomids",
+            "Hex": "e6194b"
+        }, {
+            "Name": "dC13",
+            "Hex": "ebc2fd"
+        }, {
+            "Name": "Dendro",
+            "Hex": "FFFFD1"
+        }, {
+            "Name": "Diatoms",
+            "Hex": "0082c8"
+        }, {
+            "Name": "dN15",
+            "Hex": "8ee458"
+        }, {
+            "Name": "dO18",
+            "Hex": "fff"
+        }, {
+            "Name": "Foraminifera",
+            "Hex": "fabebe"
+        }, {
+            "Name": "Grain Size Analysis",
+            "Hex": "008080"
+        }, {
+            "Name": "Leaf Wax Lipids",
+            "Hex": "D2B48C"
+        }, {
+            "Name": "LOI (Carbonates)",
+            "Hex": "000"
+        }, {
+            "Name": "LOI (Organic)",
+            "Hex": "808080"
+        }, {
+            "Name": "Macro Fossils",
+            "Hex": "aa6e28"
+        }, {
+            "Name": "Magnetic Succeptibility",
+            "Hex": "f58231"
+        }, {
+            "Name": "Micro Morphology",
+            "Hex": "ffd8b1"
+        }, {
+            "Name": "Molluscs",
+            "Hex": "f032e6"
+        }, {
+            "Name": "Ostracodea",
+            "Hex": "911eb4"
+        }, {
+            "Name": "Phytoliths",
+            "Hex": "000080"
+        }, {
+            "Name": "Point Geochemistry",
+            "Hex": "800000"
+        }, {
+            "Name": "Pollen",
+            "Hex": "8ee458"
+        }, {
+            "Name": "Stratigraphic description",
+            "Hex": "fff"
+        }, {
+            "Name": "Testate amoebae",
+            "Hex": "fff"
+        }, {
+            "Name": "Thecamoebians",
+            "Hex": "fff"
+        }, {
+            "Name": "XRF",
+            "Hex": "fff"
+        }]
+    }]
 }
