@@ -4,11 +4,11 @@
     "Publication": "",
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Proxy",
-    "ClusterDistance": 150,
+    "DisplayUnit": "ProxyGroup",
+    "ClusterDistance": 125,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
-    "MaxPieSize": 180,
+    "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
@@ -78,6 +78,13 @@
             "Description": ""
         },
         {
+            "Column": "AgeLength",
+            "Name": "Length of Time Series",
+            "DataType": "float",
+            "unit": "years",
+            "Description": ""
+        },
+        {
             "Column": "Average Annual Rainfall (mm)",
             "Name": "Average Annual Rainfall",
             "DataType": "float",
@@ -93,7 +100,7 @@
         },
         {
             "Column": "Driest Month (mm)",
-            "Name": "Dryest Month",
+            "Name": "Driest Month",
             "DataType": "float",
             "unit": "mm",
             "Description": ""
@@ -142,88 +149,67 @@
         }
     ],
     "DataPalettes": [{
-        "Column": "Proxy",
-        "Palette": [{
-            "Name": "Bulk Density",
-            "Hex": "FFFF00"
-        }, {
-            "Name": "Charchoal (Macro)",
-            "Hex": "aaffc3"
-        }, {
-            "Name": "Charcoal (Micro)",
-            "Hex": "808000"
-        }, {
-            "Name": "Charcoal (Undefined)",
-            "Hex": "46f0f0"
+        "Column": "ProxyGroup",
+        "Palette": [ {
+            "Name": "Charcoal",
+            "Hex": "000000"
         }, {
             "Name": "Chironomids",
-            "Hex": "e6194b"
+            "Hex": "aaffc3"
         }, {
             "Name": "dC13",
-            "Hex": "ebc2fd"
+            "Hex": "911eb4"
         }, {
-            "Name": "Dendro",
-            "Hex": "FFFFD1"
+            "Name": "Dendrochronology",
+            "Hex": "9A6324"
         }, {
             "Name": "Diatoms",
-            "Hex": "0082c8"
+            "Hex": "42d4f4"
         }, {
             "Name": "dN15",
-            "Hex": "8ee458"
-        }, {
-            "Name": "dO18",
-            "Hex": "fff"
-        }, {
-            "Name": "Foraminifera",
-            "Hex": "fabebe"
-        }, {
-            "Name": "Grain Size Analysis",
-            "Hex": "008080"
-        }, {
-            "Name": "Leaf Wax Lipids",
-            "Hex": "D2B48C"
-        }, {
-            "Name": "LOI (Carbonates)",
-            "Hex": "000"
-        }, {
-            "Name": "LOI (Organic)",
-            "Hex": "808080"
-        }, {
-            "Name": "Macro Fossils",
-            "Hex": "aa6e28"
-        }, {
-            "Name": "Magnetic Succeptibility",
-            "Hex": "f58231"
-        }, {
-            "Name": "Micro Morphology",
             "Hex": "ffd8b1"
         }, {
-            "Name": "Molluscs",
+            "Name": "dO18",
+            "Hex": "4363d8"
+        }, {
+            "Name": "Foraminifera",
+            "Hex": "ffffff"
+        }, {
+            "Name": "Geochemistry",
             "Hex": "f032e6"
         }, {
+            "Name": "Leaf Wax Lipids",
+            "Hex": "808000"
+        }, {
+            "Name": "LOI (Carbonates)",
+            "Hex": "a9a9a9"
+        }, {
+            "Name": "LOI (Organic)",
+            "Hex": "fffac8"
+        }, {
+            "Name": "Macro Fossils",
+            "Hex": "fabebe"
+        }, {
+            "Name": "Magnetic Succeptibility",
+            "Hex": "e6194B"
+        },{
+            "Name": "Molluscs",
+            "Hex": "000075"
+        }, {
             "Name": "Ostracodea",
-            "Hex": "911eb4"
+            "Hex": "e6beff"
+        },  {
+            "Name": "Physical Characteristics",
+            "Hex": "800000"
         }, {
             "Name": "Phytoliths",
             "Hex": "000080"
         }, {
-            "Name": "Point Geochemistry",
-            "Hex": "800000"
-        }, {
             "Name": "Pollen",
-            "Hex": "8ee458"
-        }, {
-            "Name": "Stratigraphic description",
-            "Hex": "fff"
-        }, {
+            "Hex": "3cb44b"
+        },{
             "Name": "Testate amoebae",
-            "Hex": "fff"
-        }, {
-            "Name": "Thecamoebians",
-            "Hex": "fff"
-        }, {
-            "Name": "XRF",
-            "Hex": "fff"
+            "Hex": "f58231"
         }]
     }]
 }
