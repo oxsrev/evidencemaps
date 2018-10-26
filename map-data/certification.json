@@ -74,17 +74,17 @@
     "Logos": [{
         "File": "iseal",
         "Name": "ISEAL",
-        "ExternalUrl": "ox.ac.uk"
+        "ExternalUrl": "https://www.isealalliance.org"
     },
     {
         "File": "3keel",
         "Name": "3keel",
-        "ExternalUrl": "ox.ac.uk"
+        "ExternalUrl": "http://www.3keel.com"
     },
     {
         "File": "oxford",
         "Name": "University of Oxford",
-        "ExternalUrl": "ox.ac.uk"
+        "ExternalUrl": "https://ox.ac.uk"
     }],
     "DataPalettes": [{
         "Column": "Production System/Sector",

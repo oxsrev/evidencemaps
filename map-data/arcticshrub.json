@@ -1,10 +1,11 @@
 {
     "Name": "Shrub growth and expansion in the Arctic tundra",
     "Description": "An assessment of controlling factors using an evidence-based approach",
-    "Publication": "Martin et al (2017)",
+    "PublicationReference": "Martin et al (2017)",
+    "PublicationUrl": "http://dx.doi.org/10.1088/1748-9326/aa7989",
     "Logos": [
-        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" },
-        { "File": "nerc", "Name": "Natural Environment Research Council", "ExternalUrl": "nerc.ac.uk" }
+        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "https://ox.ac.uk" },
+        { "File": "nerc", "Name": "Natural Environment Research Council", "ExternalUrl": "https://nerc.ac.uk" }
     ],
     "Projection": "arctic",
     "DisplayMode": "cluster",
