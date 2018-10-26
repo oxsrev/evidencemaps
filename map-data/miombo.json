@@ -16,28 +16,28 @@
     }],
     "Logos": [{
             "File": "dfid",
-            "Name": "University of Oxford",
-            "ExternalUrl": "ox.ac.uk"
+            "Name": "DFID",
+            "ExternalUrl": "https://www.gov.uk/government/organisations/department-for-international-development"
         },
         {
             "File": "cifor",
             "Name": "CIFOR",
-            "ExternalUrl": "ox.ac.uk"
+            "ExternalUrl": "https://www.cifor.org/"
         },
         {
             "File": "copporbelt_university",
             "Name": "Copporbelt University",
-            "ExternalUrl": "ox.ac.uk"
+            "ExternalUrl": "https://www.cbu.ac.zm/"
         },
         {
             "File": "university-zimbabwe",
             "Name": "University of Zimbabwe",
-            "ExternalUrl": "ox.ac.uk"
+            "ExternalUrl": "http://www.uz.ac.zw/"
         },
         {
             "File": "oxford",
             "Name": "University of Oxford",
-            "ExternalUrl": "ox.ac.uk"
+            "ExternalUrl": "http://www.ox.ac.uk/"
         }
     ],
     "Fields": [{
