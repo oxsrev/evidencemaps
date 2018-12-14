@@ -1,0 +1,205 @@
+{
+    "Name": "The impacts on biodiversity of the wood pellet industry in Southeastern USA",
+    "Description": "A systematic map of studies published between 1990 and July 2018",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Forest Type",
+    "ClusterDistance": 15,
+    "MapCentre": [-85, 35],
+    "MapZoomLevel": 9,
+    "MaxPieSize": 5,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."        
+    }],
+    "Fields": [
+        {
+            "Column": "Item Type",
+            "Name": "Item Type",
+            "DataType": "string",
+            "Description": "Type of document."
+        },
+        {
+            "Column": "Publication Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "Description": "Year of publication."
+        }, 
+        {
+             "Column": "Forest Type",
+            "Name": "Forest Type",
+            "DataType": "string",
+            "Description": "Forest type of study location"
+        },
+        {
+            "Column": "Dominant Forest Tree Species",
+            "Name": "Dominant Forest Tree Species",
+            "DataType": "string",
+            "Description": "Dominant tree species within study location"
+        },
+        {
+            "Column": "Age of forest",
+            "Name": "Forest Age",
+            "DataType": "string",
+            "Description": "Age of forest within study location"
+        },
+        { 
+             "Column": "Forest Management Notes",
+            "Name": "Forest Management Notes",
+            "DataType": "string",
+            "Description": "More detailed notes on historical forest management within study location"
+        }, 
+        {
+             "Column": "Study Design",
+            "Name": "Study Design",
+            "DataType": "string",
+            "Description": "Design of study (Before/After, Control/Intervention, Before/After/Control/Intervention)"
+        },
+        {
+             "Column": "Year of Study Start",
+            "Name": "Year of Study",
+            "DataType": "float",
+            "Description": "Year in which the study began"
+        },
+        {
+             "Column": "Time Since Intervention",
+            "Name": "Time Since Intervention",
+            "DataType": "float",
+            "Description": "Number of years between most recent intervention in study area and the study onset"
+        },
+        {
+             "Column": "Study Duration",
+            "Name": "Study Duration",
+            "DataType": "float",
+            "Description": "Number of years over which the study took place"
+        },
+        {
+             "Column": "Management Interventions",
+            "Name": "Management Interventions",
+            "DataType": "string",
+            "Description": "Forest management/silviculture"
+        },
+        {
+             "Column": "Managed for Wood Pellet Industry",
+            "Name": "Managed for Wood Pellet Industry",
+            "DataType": "string",
+            "Description": "Whether or not forest was managed for wood pellet industry in strudy"
+        },
+        {
+             "Column": "Method of Sampling",
+            "Name": "Method of Sampling",
+            "DataType": "string",
+            "Description": "Sampling methodology implemented in study"
+        },
+        {
+             "Column": "Type of Data",
+            "Name": "Type of Data",
+            "DataType": "string",
+            "Description": "Data type collected (Abundance or Richness)"
+        }, 
+        { 
+             "Column": "Trees",
+            "Name": "Trees",
+            "DataType": "string",
+            "Description": "Overstory Plants"
+        },
+        {
+             "Column": "Other Vascular Plants",
+            "Name": "Other Vascular Plants",
+            "DataType": "string",
+            "Description": "Vascular plants (not including overstory trees)"
+        },
+        {
+             "Column": "Unspecified Vertebrates",
+            "Name": "Unspecified Vertebrates",
+            "DataType": "string",
+            "Description": "Unspecified vertebrates"
+        },
+        {
+             "Column": "Amphibians",
+            "Name": "Amphibians",
+            "DataType": "string",
+            "Description": "Amphibians"
+        },
+        {
+             "Column": "Reptiles",
+            "Name": "Reptiles",
+            "DataType": "string",
+            "Description": "Reptiles"
+        },
+        {
+             "Column": "Birds",
+            "Name": "Birds",
+            "DataType": "string",
+            "Description": "Birds"
+        },
+        {
+             "Column": "Mammals",
+            "Name": "Mammals",
+            "DataType": "string",
+            "Description": "Mammals"
+        },
+        {
+             "Column": "Fish and Aquatic Vertebrates",
+            "Name": "Fish and Aquatic Vertebrates",
+            "DataType": "string",
+            "Description": "Fish and aquatic vertebrates"
+        },
+        { 
+             "Column": "Land Invertebrates",
+            "Name": "Land Invertebrates",
+            "DataType": "string",
+            "Description": "Land Invertebrates"
+        },
+        {
+             "Column": "Aquatic Invertebrates",
+            "Name": "Aquatic Invertebrates",
+            "DataType": "string",
+            "Description": "Aquatic Invertebrates"
+        },
+        {
+             "Column": "Invasive/Exotic/Non-Native",
+            "Name": "Invasive/Exotic/Non-Native",
+            "DataType": "string",
+            "Description": "Invasive/Exotic/Non-Native"
+        },
+        {
+             "Column": "Negative Impact Reported",
+            "Name": "Negative Impact Reported",
+            "DataType": "string",
+            "Description": "Whether or not study reported negative impact on biodiversity from forest management implemented"
+        }                          
+          ],
+    "Logos": [{
+        "File": "oxford",
+        "Name": "University of Oxford",
+        "ExternalUrl": "ox.ac.uk"
+    }],
+    "DataPalettes": [{
+        "Column": "Forest Type",
+        "Palette": [{
+                "Name": "broadleaf",
+                "Hex": "228B22"
+            
+            },
+            {
+                "Name": "conifer",
+                "Hex": "FFFF00" 
+            },
+            {
+                "Name": "plantation",
+                "Hex": "BF3330"
+            },            
+            {
+                "Name": "mixed",
+                "Hex": "A66200"
+            },
+            {
+                "Name": "unspecified",
+                "Hex": "808080"
+            }            
+        ]
+    }]
+}

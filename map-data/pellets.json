@@ -1,0 +1,127 @@
+{
+    "Name": "The impacts on biodiversity of the wood pellet industry in Southeastern USA",
+    "Description": "A systematic map of studies published between 1990 and July 2018",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Forest Type",
+    "ClusterDistance": 15,
+    "MapCentre": [-85, 35],
+    "MapZoomLevel": 9,
+    "MaxPieSize": 5,
+    "BaseLayers": [{
+        "File": "STATES",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."        
+    }],
+    "Fields": [
+        {
+            "Column": "Item Type",
+            "Name": "Item Type",
+            "DataType": "string",
+            "Description": "Type of document."
+        },
+        {
+            "Column": "Publication Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "Description": "Year of publication."
+        }, 
+        {
+             "Column": "Forest Type",
+            "Name": "Forest Type",
+            "DataType": "string",
+            "Description": "Forest type of study location"
+        },
+        {
+            "Column": "Age of forest",
+            "Name": "Forest Age",
+            "DataType": "float",
+            "Description": "Age of forest within study location"
+        },
+        {
+             "Column": "Study Design",
+            "Name": "Study Design",
+            "DataType": "string",
+            "Description": "Design of study (Before/After, Control/Intervention, Before/After/Control/Intervention)"
+        },
+        {
+             "Column": "Year of Study Start",
+            "Name": "Year of Study",
+            "DataType": "float",
+            "Description": "Year in which the study began"
+        },
+        {
+             "Column": "Time Since Intervention",
+            "Name": "Time Since Intervention",
+            "DataType": "float",
+            "Description": "Number of years between most recent intervention in study area and the study onset"
+        },
+        {
+             "Column": "Study Duration",
+            "Name": "Study Duration",
+            "DataType": "float",
+            "Description": "Number of years over which the study took place"
+        },
+        {
+            "Column": "Management Interventions",
+            "Name": "Management Interventions",
+            "DataType": "string",
+            "Description": "Forest management/silviculture"
+        },
+        {
+             "Column": "Managed for Wood Pellet Industry",
+            "Name": "Managed for Wood Pellet Industry",
+            "DataType": "string",
+            "Description": "Whether or not forest was managed for wood pellet industry in strudy"
+        },
+        {
+             "Column": "Method of Sampling",
+            "Name": "Method of Sampling",
+            "DataType": "string",
+            "Description": "Sampling methodology implemented in study"
+        },
+        {
+             "Column": "Type of Data",
+            "Name": "Type of Data",
+            "DataType": "string",
+            "Description": "Data type collected (Abundance or Richness)"
+        }, 
+         {
+             "Column": "Biodiversity Indicator",
+            "Name": "Biodiversity Indicator",
+            "DataType": "string",
+            "Description": "Biodiversity indicator measured in study"
+        }                       
+          ],
+    "Logos": [{
+        "File": "oxford",
+        "Name": "University of Oxford",
+        "ExternalUrl": "ox.ac.uk"
+    }],
+    "DataPalettes": [{
+        "Column": "Forest Type",
+        "Palette": [{
+                "Name": "broadleaf",
+                "Hex": "228B22"
+            
+            },
+            {
+                "Name": "conifer",
+                "Hex": "FFFF00" 
+            },
+            {
+                "Name": "plantation",
+                "Hex": "BF3330"
+            },            
+            {
+                "Name": "mixed",
+                "Hex": "A66200"
+            },
+            {
+                "Name": "unspecified",
+                "Hex": "808080"
+            }            
+        ]
+    }]
+}
