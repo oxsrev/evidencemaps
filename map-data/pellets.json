@@ -14,6 +14,12 @@
         "Description": "USA state boundaries"        
     }],
     "Fields": [
+    	 {
+            "Column": "Management Interventions",
+            "Name": "Management Interventions",
+            "DataType": "string",
+            "Description": "Forest management/silviculture"
+        },
         {
             "Column": "Item Type",
             "Name": "Item Type",
@@ -61,12 +67,6 @@
             "Name": "Study Duration",
             "DataType": "float",
             "Description": "Number of years over which the study took place"
-        },
-        {
-            "Column": "Management Interventions",
-            "Name": "Management Interventions",
-            "DataType": "string",
-            "Description": "Forest management/silviculture"
         },
         {
              "Column": "Managed for Wood Pellet Industry",
