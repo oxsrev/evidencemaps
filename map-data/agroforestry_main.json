@@ -1,0 +1,137 @@
+{
+    "Name": "All agroforestry studies",
+    "Description": "Evidence map of all studies on the impacts of integrating woody vegetation with sheep or cattle on livestock productivity, environmental impacts and farm economic viability",
+    "PublicationReference": "For help using the tool follow link",
+    "PublicationUrl": "https://github.com/borgstein/agroforestry_mapping/blob/master/Mapping%20Tool%20User%20Guide.pdf",
+    "Logos": [
+        { "File": "oxlel", 
+          "Name": "Oxford Long-Term Ecology Lab", 
+          "ExternalUrl": "http://oxlel.zoo.ox.ac.uk" },
+          { "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "http://www.ox.ac.uk/" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Agroforestry type",
+    "ClusterDistance": 500, 
+    "MapCentre": [0, 25],
+    "MapZoomLevel": 1,
+    "MaxPieSize": 35,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [{
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": "Country of each study"
+        },
+        {
+            "Column": "State",
+            "Name": "State",
+            "DataType": "string",
+            "Description": "State of each study - if given"
+        },
+        {
+            "Column": "Year",
+            "Name": "Year of Publication",
+            "DataType": "float",
+            "Unit": "",
+            "Description": "Year of publication"
+        },
+        {
+            "Column": "Livestock type",
+            "Name": "Livestock type",
+            "DataType": "string",
+            "Unit": "",
+            "Description": "What was the livestock in the agroforestry system (Cattle, Sheep etc.)"
+        },  
+        {
+            "Column": "Agroforestry type",
+            "Name": "Agroforestry type",
+            "DataType": "string",
+            "Description": "Agroforestry system of setting"
+        },
+        {
+            "Column": "Comparator",
+            "Name": "Comparator",
+            "DataType": "string",
+            "Description": "Control against which intervention was measured"
+        },
+        {"Column": "Productivity measure",
+            "Name": "Productivity measure",
+            "DataType": "string",
+            "Description": "How was productivity measured in the study"
+         },
+        {
+            "Column": "GHGEs/Carbon",
+            "Name": "GHGEs/Carbon",
+            "DataType": "string",
+            "Description": "How were GHGEs and/or Carbon measured?"
+        },
+        {
+            "Column": "Water quantity",
+            "Name": "Water quantity",
+            "DataType": "string",
+            "Description": "What was the effect on water quantity?"
+        },
+        {
+            "Column": "Water quality",
+            "Name": "Water quality",
+            "DataType": "string",
+            "Description": "What was the effect on water quality?"
+        },
+        {
+            "Column": "Soil erosion",
+            "Name": "Soil erosion",
+            "DataType": "string",
+            "Description": "What was the effect on soil erosion?"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Agroforestry type",
+        "Palette": [{
+                "Name": "Biofuel",
+                "Hex": "4e79a7"
+            },
+            {
+                "Name": "Dehesa/Montado",
+                "Hex": "59a14f"
+            },
+            {
+                "Name": "Farm woodland",
+                "Hex": "9c755f"
+            },            
+            {
+                "Name": "Forest grazing",
+                "Hex": "f28e2b"
+            },
+            {
+                "Name": "Hedge",
+                "Hex": "edc948"
+            },
+            {
+                "Name": "Orchard",
+                "Hex": "bab0ac"
+            },
+            {
+                "Name": "Riparian strip",
+                "Hex": "e15759"
+            },
+            {
+                "Name": "Shelterbelt/Windbreak",
+                "Hex": "b07aa1"
+            },
+            {
+                "Name": "Silvopasture",
+                "Hex": "76b7b2"
+            },
+            {
+                "Name": "Wood pasture",
+                "Hex": "ff9da7"
+            }
+        ]
+    }]
+}

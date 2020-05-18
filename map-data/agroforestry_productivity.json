@@ -1,0 +1,117 @@
+{
+    "Name": "Agroforestry productivity studies",
+    "Description": "Evidence map of all studies, relating to productivity, on the impacts of integrating woody vegetation with sheep or cattle on livestock productivity, environmental impacts and farm economic viability",
+    "PublicationReference": "For help using the tool follow link",
+    "PublicationUrl": "https://github.com/borgstein/agroforestry_mapping/blob/master/Mapping%20Tool%20User%20Guide.pdf",
+    "Logos": [
+        { "File": "oxlel", 
+          "Name": "Oxford Long-Term Ecology Lab", 
+          "ExternalUrl": "https://oxlel.zoo.ox.ac.uk" },
+          { "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "http://www.ox.ac.uk/" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Effect on productivity",
+    "ClusterDistance": 500, 
+    "MapCentre": [0, 25],
+    "MapZoomLevel": 1,
+    "MaxPieSize": 35,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [{
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": "Country of each study"
+        },
+        {
+            "Column": "State",
+            "Name": "State",
+            "DataType": "string",
+            "Description": "State of each study - if given"
+        },
+        {
+            "Column": "Year",
+            "Name": "Year of Publication",
+            "DataType": "float",
+            "Unit": "",
+            "Description": "Year of publication"
+        },
+        {
+            "Column": "Livestock type",
+            "Name": "Livestock type",
+            "DataType": "string",
+            "Unit": "",
+            "Description": "What was the livestock in the agroforestry system (Cattle, Sheep etc.)"
+        },  
+        {
+            "Column": "Agroforestry type",
+            "Name": "Agroforestry type",
+            "DataType": "string",
+            "Description": "Agroforestry system of setting"
+        },
+        {
+            "Column": "Comparator",
+            "Name": "Comparator",
+            "DataType": "string",
+            "Description": "Control against which intervention was measured"
+        },
+        {"Column": "Productivity measure",
+            "Name": "Productivity measure",
+            "DataType": "string",
+            "Description": "How was productivity measured in the study"
+         },
+        {
+            "Column": "GHGEs/Carbon",
+            "Name": "GHGEs/Carbon",
+            "DataType": "string",
+            "Description": "How were GHGEs and/or Carbon measured?"
+        },
+        {
+            "Column": "Effect on productivity",
+            "Name": "Effect on productivity",
+            "DataType": "string",
+            "Description": "Outcome measure"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Effect on productivity",
+        "Palette": [{
+                "Name": "Positive",
+                "Hex": "4e79a7"
+            },
+            {
+                "Name": "Negative",
+                "Hex": "59a14f"
+            },
+            {
+                "Name": "No effect",
+                "Hex": "9c755f"
+            },            
+            {
+                "Name": "Mixed results (positive and no effect)",
+                "Hex": "f28e2b"
+            },
+            {
+                "Name": "Mixed results (negative and no effect)",
+                "Hex": "edc948"
+            },
+            {
+                "Name": "Mixed results (positive and negative)",
+                "Hex": "bab0ac"
+            },
+            {
+                "Name": "Decrease with increased tree density/cover/proximity",
+                "Hex": "e15759"
+            },
+            {
+                "Name": "Unclear from article",
+                "Hex": "b07aa1"
+            }
+        ]
+    }]
+}
