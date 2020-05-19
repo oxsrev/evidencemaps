@@ -97,10 +97,6 @@
             "Description": "Biodiversity indicator measured in study"
         }                       
           ],
-    "Logos": [{
-        "File": "oxford",
-        "Name": "University of Oxford",
-        "ExternalUrl": "https://ox.ac.uk"
     }],
     "DataPalettes": [{
         "Column": "Forest Type",
