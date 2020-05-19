@@ -6,11 +6,11 @@
 # Your site settings
 title: Environmental Evidence Maps
 description: > # this means to ignore newlines until "baseurl:"
-  Evidence-based maps and systematic maps produced by the University of Oxford's Long-Term Ecology Laboratory.
+  Evidence-based maps and systematic maps produced by Oxford Systematic Reviews LLP.
 baseurl: "/evidencemaps" # the subpath of your site, e.g. /blog
-url: "https://oxlel.github.io" # the base hostname & protocol for your site
-ownername: "Oxford Long-Term Ecology Laboratory"
-ownerurl: "https://oxlel.zoo.ox.ac.uk"
+url: "https://oxsrev.github.io" # the base hostname & protocol for your site
+ownername: "Oxford Systematic Reviews LLP"
+ownerurl: "https://www.oxsrev.org"
 
 # Internal configuration
 plugins:
