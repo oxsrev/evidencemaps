@@ -17,7 +17,7 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Program Focus",
     "ClusterDistance": 500, 
-    "MapCentre": [0, 25],
+    "MapCentre": [0, 50],
     "MapZoomLevel": 1,
     "MaxPieSize": 35,
     "BaseLayers": [{
