@@ -97,7 +97,6 @@
             "Description": "Biodiversity indicator measured in study"
         }                       
           ],
-    }],
     "DataPalettes": [{
         "Column": "Forest Type",
         "Palette": [{
