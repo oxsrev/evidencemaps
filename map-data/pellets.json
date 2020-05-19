@@ -96,7 +96,7 @@
     "Logos": [{
         "File": "OXSREV",
         "Name": "Oxford Systematic Reviews LLP",
-        "ExternalUrl": "www.oxsrev.org"
+        "ExternalUrl": "https://www.oxsrev.org"
     }],
     "DataPalettes": [{
         "Column": "Forest Type",

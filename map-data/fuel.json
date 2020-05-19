@@ -12,7 +12,7 @@
           "ExternalUrl": "" },
           { "File": "OXSREV", 
             "Name": "OXSREV", 
-            "ExternalUrl": "www.oxsrev.org" }],
+            "ExternalUrl": "https://www.oxsrev.org" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Program Focus",
