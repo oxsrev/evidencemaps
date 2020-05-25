@@ -112,7 +112,7 @@
     }],
     "DataPalettes": [{
         "Column": "Biodiversity Indicator",
-            "Palette": [{
+        "Palette": [{
                 "Name": "Amphibians",
                 "Hex": "4e79a7"
             },
