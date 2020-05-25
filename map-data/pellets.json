@@ -3,7 +3,7 @@
     "Description": "A systematic map of studies published between 1990 and July 2018",
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Forest Type",
+    "DisplayUnit": "Biodiversity Indicator",
     "ClusterDistance": 15,
     "MapCentre": [-85, 35],
     "MapZoomLevel": 11,
@@ -117,28 +117,51 @@
         "ExternalUrl": "https://www.oxsrev.org"
     }],
     "DataPalettes": [{
-        "Column": "Forest Type",
-        "Palette": [{
-                "Name": "Broadleaf",
-                "Hex": "228B22"
-            
+        "Column": "Biodiversity Indicator",
+            "Palette": [{
+                "Name": "Amphibians",
+                "Hex": "4e79a7"
             },
             {
-                "Name": "Conifer",
-                "Hex": "FFFF00" 
+                "Name": "Birds",
+                "Hex": "59a14f"
             },
             {
-                "Name": "Plantation",
-                "Hex": "BF3330"
+                "Name": "Fish & Aquatic vertebrates",
+                "Hex": "9c755f"
             },            
             {
-                "Name": "Mixed",
-                "Hex": "A66200"
+                "Name": "Invasive/exotic/non-native species",
+                "Hex": "f28e2b"
             },
             {
-                "Name": "Unspecified",
-                "Hex": "808080"
-            }            
+                "Name": "Invertebrates (aquatic)",
+                "Hex": "edc948"
+            },
+            {
+                "Name": "Invertebrates (land)",
+                "Hex": "bab0ac"
+            },
+            {
+                "Name": "Mammals",
+                "Hex": "e15759"
+            },
+            {
+                "Name": "Non-vascular plants",
+                "Hex": "b07aa1"
+            },
+            {
+                "Name": "Reptiles",
+                "Hex": "76b7b2"
+            },
+            {
+                "Name": "Trees",
+                "Hex": "ff9da7"
+            },
+            {
+                "Name": "Vascular plants",
+                "Hex": "ffffff"
+            },              
         ]
     }]
 }
