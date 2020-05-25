@@ -103,13 +103,7 @@
             "Name": "Type of Data",
             "DataType": "string",
             "Description": "Data type collected (Abundance or Richness)"
-        }, 
-         {
-             "Column": "Biodiversity Indicator",
-            "Name": "Biodiversity Indicator",
-            "DataType": "string",
-            "Description": "Biodiversity indicator measured in study"
-        }                       
+        }                     
           ],
     "Logos": [{
         "File": "OXSREV",
