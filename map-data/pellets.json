@@ -15,8 +15,8 @@
     }],
     "Fields": [
     	 {
-            "Column": "Management Interventions",
-            "Name": "Management Interventions",
+            "Column": "Management Intervention (High Level)",
+            "Name": "Management Intervention (High Level)",
             "DataType": "string",
             "Description": "Forest management/silviculture"
         },
@@ -39,7 +39,7 @@
             "Description": "Forest type of study location"
         },
         {
-            "Column": "Age of forest",
+            "Column": "Age of Forest Area",
             "Name": "Forest Age",
             "DataType": "float",
             "Description": "Age of forest within study location"
@@ -75,7 +75,7 @@
             "Description": "Whether or not forest was managed for wood pellet industry in strudy"
         },
         {
-             "Column": "Method of Sampling",
+             "Column": "Method of Sampling (High Level)",
             "Name": "Method of Sampling",
             "DataType": "string",
             "Description": "Sampling methodology implemented in study"
