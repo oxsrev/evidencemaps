@@ -21,6 +21,12 @@
             "Description": "Forest management/silviculture"
         },
         {
+            "Column": "State",
+            "Name": "State",
+            "DataType": "string",
+            "Description": "In which state was the study conducted?"
+        },
+        {
             "Column": "Biodiversity Indicator",
             "Name": "Biodiversity Indicator",
             "DataType": "string",
