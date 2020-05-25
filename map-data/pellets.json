@@ -4,7 +4,7 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Indicator",
-    "ClusterDistance": 250,
+    "ClusterDistance": 100,
     "MapCentre": [-85, 35],
     "MapZoomLevel": 11,
     "MaxPieSize": 110,
