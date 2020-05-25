@@ -6,7 +6,7 @@
     "DisplayUnit": "Forest Type",
     "ClusterDistance": 15,
     "MapCentre": [-85, 35],
-    "MapZoomLevel": 10,
+    "MapZoomLevel": 11,
     "MaxPieSize": 5,
     "BaseLayers": [{
         "File": "STATES",
@@ -19,6 +19,12 @@
             "Name": "Management Intervention (High Level)",
             "DataType": "string",
             "Description": "Forest management/silviculture"
+        },
+        {
+            "Column": "Biodiversity Indicator",
+            "Name": "Biodiversity Indicator",
+            "DataType": "string",
+            "Description": "What biodiversity indicator was measured by the study?"
         },
         {
             "Column": "Negative Impact",
@@ -113,24 +119,24 @@
     "DataPalettes": [{
         "Column": "Forest Type",
         "Palette": [{
-                "Name": "broadleaf",
+                "Name": "Broadleaf",
                 "Hex": "228B22"
             
             },
             {
-                "Name": "conifer",
+                "Name": "Conifer",
                 "Hex": "FFFF00" 
             },
             {
-                "Name": "plantation",
+                "Name": "Plantation",
                 "Hex": "BF3330"
             },            
             {
-                "Name": "mixed",
+                "Name": "Mixed",
                 "Hex": "A66200"
             },
             {
-                "Name": "unspecified",
+                "Name": "Unspecified",
                 "Hex": "808080"
             }            
         ]
