@@ -4,10 +4,10 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Indicator",
-    "ClusterDistance": 15,
+    "ClusterDistance": 250,
     "MapCentre": [-85, 35],
     "MapZoomLevel": 11,
-    "MaxPieSize": 5,
+    "MaxPieSize": 110,
     "BaseLayers": [{
         "File": "STATES",
         "Name": "States",
@@ -160,7 +160,7 @@
             },
             {
                 "Name": "Vascular plants",
-                "Hex": "ee82ee"
+                "Hex": "ffffff"
             }             
         ]
     }]
