@@ -6,7 +6,7 @@
     "DisplayUnit": "Forest Type",
     "ClusterDistance": 15,
     "MapCentre": [-85, 35],
-    "MapZoomLevel": 9,
+    "MapZoomLevel": 10,
     "MaxPieSize": 5,
     "BaseLayers": [{
         "File": "STATES",
@@ -19,6 +19,18 @@
             "Name": "Management Intervention (High Level)",
             "DataType": "string",
             "Description": "Forest management/silviculture"
+        },
+        {
+            "Column": "Negative Impact",
+            "Name": "Negative Impact",
+            "DataType": "string",
+            "Description": "Did the study report a negative impact on biodiversity as a result of the management?"
+        },
+        {
+            "Column": "Negative by Class",
+            "Name": "Negative by Class",
+            "DataType": "string",
+            "Description": "What  biodiversity indicator was negatively impacted as a result of management?"
         },
         {
             "Column": "Item Type",
