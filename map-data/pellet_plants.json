@@ -1,0 +1,59 @@
+{
+    "Name": "The wood pellet producing plants in Southeastern USA",
+    "Description": "list obtained from http://biomassmagazine.com/plants/listplants/pellet/US/Operational",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Plant Type",
+    "ClusterDistance": 50,
+    "MapCentre": [-85, 35],
+    "MapZoomLevel": 10,
+    "MaxPieSize": 40,
+    "BaseLayers": [{
+        "File": "STATES",
+        "Name": "States",
+        "Description": "USA state boundaries"        
+    }],
+    "Fields": [
+        {
+            "Column": "Plant Type",
+            "Name": "Plant Type",
+            "DataType": "string",
+            "Description": "What is the feedstock of the plant?"
+        },
+        {
+             "Column": "State",
+            "Name": "State",
+            "DataType": "string",
+            "Description": "What state is the plant in?"
+        }                     
+          ],
+    "Logos": [{
+        "File": "OXSREV",
+        "Name": "Oxford Systematic Reviews LLP",
+        "ExternalUrl": "https://www.oxsrev.org"
+    }],
+    "DataPalettes": [{
+        "Column": "Plant Type",
+        "Palette": [{
+                "Name": "Ag/Peanut Hulls",
+                "Hex": "4e79a7"
+            },
+            {
+                "Name": "Hardwood",
+                "Hex": "59a14f"
+            },
+            {
+                "Name": "Hardwood and Softwood",
+                "Hex": "9c755f"
+            },            
+            {
+                "Name": "Hardwood/Softwood",
+                "Hex": "f28e2b"
+            },
+            {
+                "Name": "Softwood",
+                "Hex": "edc948"
+            }             
+        ]
+    }]
+}

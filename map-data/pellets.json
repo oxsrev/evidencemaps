@@ -111,11 +111,6 @@
             "Description": "Data type collected (Abundance or Richness)"
         }                     
           ],
-    "Logos": [{
-        "File": "OXSREV",
-        "Name": "Oxford Systematic Reviews LLP",
-        "ExternalUrl": "https://www.oxsrev.org"
-    }],
     "DataPalettes": [{
         "Column": "Biodiversity Indicator",
         "Palette": [{
