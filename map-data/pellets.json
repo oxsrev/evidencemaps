@@ -7,13 +7,19 @@
     "ClusterDistance": 50,
     "MapCentre": [-85, 35],
     "MapZoomLevel": 11,
-    "MaxPieSize": 50,
+    "MaxPieSize": 40,
     "BaseLayers": [{
         "File": "STATES",
         "Name": "States",
         "Description": "USA state boundaries"        
     }],
     "Fields": [
+        {
+            "Column": "Biodiversity Indicator",
+            "Name": "Biodiversity Indicator",
+            "DataType": "string",
+            "Description": "What biodiversity indicator was measured by the study?"
+        },
     	 {
             "Column": "Management Intervention (High Level)",
             "Name": "Management Intervention (High Level)",
@@ -25,12 +31,6 @@
             "Name": "State Code",
             "DataType": "string",
             "Description": "In which state was the study conducted?"
-        },
-        {
-            "Column": "Biodiversity Indicator",
-            "Name": "Biodiversity Indicator",
-            "DataType": "string",
-            "Description": "What biodiversity indicator was measured by the study?"
         },
         {
             "Column": "Negative Impact",
