@@ -7,7 +7,7 @@
     "ClusterDistance": 50,
     "MapCentre": [-85, 35],
     "MapZoomLevel": 10,
-    "MaxPieSize": 40,
+    "MaxPieSize": 20,
     "BaseLayers": [{
         "File": "STATES",
         "Name": "States",
