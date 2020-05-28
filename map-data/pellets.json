@@ -6,6 +6,8 @@
     "DisplayUnit": "Biodiversity Indicator",
     "ClusterDistance": 50,
     "MapCentre": [-85, 35],
+    "PublicationReference": "For help using the tool follow link",
+    "PublicationUrl": "https://github.com/oxsrev/evidencemaps/blob/master/Mapping%20Tool%20User%20Guide.pdf",
     "MapZoomLevel": 11,
     "MaxPieSize": 40,
     "BaseLayers": [{
