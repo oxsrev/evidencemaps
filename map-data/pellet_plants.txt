@@ -6,8 +6,8 @@ Total Pellet Plants	Plant Type	State	LatDD	LonDD
 3	Hardwood	AR	34.8938	-92.4426
 3	Hardwood/Softwood	AR	34.8938	-92.4426
 3	Softwood	AR	34.8938	-92.4426
-2	Hardwood	FL	28.6305	-82.4497
-2	Softwood	FL	28.6305	-82.4497
+2	Hardwood	FL	30.176448	-82.688239
+2	Softwood	FL	30.176448	-82.688239
 8	Ag/Peanut Hulls	GA	32.6415	-83.4426
 8	Hardwood/Softwood	GA	32.6415	-83.4426
 8	Softwood	GA	32.6415	-83.4426
