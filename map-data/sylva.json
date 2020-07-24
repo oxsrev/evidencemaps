@@ -14,8 +14,8 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Which of the following most accurately reflects your position?",
     "ClusterDistance": 100, 
-    "MapCentre": [10, -50],
-    "MapZoomLevel": 8,
+    "MapCentre": [0, 50],
+    "MapZoomLevel": 6,
     "MaxPieSize": 25,
     "BaseLayers": [{
         "File": "world50",
