@@ -13,10 +13,10 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Which of the following most accurately reflects your position?",
-    "ClusterDistance": 40, 
-    "MapCentre": [60, -5],
+    "ClusterDistance": 100, 
+    "MapCentre": [10, -50],
     "MapZoomLevel": 8,
-    "MaxPieSize": 50,
+    "MaxPieSize": 25,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Land",
