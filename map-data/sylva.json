@@ -1,0 +1,127 @@
+{
+    "Name": "British Woodland Survey - 2020",
+    "Description": "GILL TO PROVIDE TEXT",
+    "PublicationReference": "",
+    "PublicationUrl": "",
+    "Logos": [
+        { "File": "sylva.gif", 
+          "Name": "Sylva Foundation", 
+          "ExternalUrl": "" },
+          { "File": "OXSREV", 
+            "Name": "OXSREV", 
+            "ExternalUrl": "https://www.oxsrev.org" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Which of the following most accurately reflects your position?",
+    "ClusterDistance": 500, 
+    "MapCentre": [50, 0],
+    "MapZoomLevel": 5,
+    "MaxPieSize": 35,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [{
+            "Column": "Which of the following most accurately reflects your position?",
+            "Name": "Which of the following most accurately reflects your position?",
+            "DataType": "string",
+            "Description": "What was the position of the person taking the survey"
+        },
+        {"Column": "What proportion of your woods are Ancient woodland (Semi-natural)?",
+            "Name": "What proportion of your woods are Ancient woodland (Semi-natural)?",
+            "DataType": "float",
+            "Description": ""
+        },
+        {"Column": "What proportion of your woods are Ancient woodland (Plantations (PAWS))?",
+            "Name": "What proportion of your woods are Ancient woodland (Plantations (PAWS))?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Ancient woodland (Restored PAWS)?",
+            "Name": "What proportion of your woods are Ancient woodland (Restored PAWS)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Secondary woods (Semi-natural)?",
+            "Name": "What proportion of your woods are Secondary woods (Semi-natural)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Secondary woods (Plantations)?",
+            "Name": "What proportion of your woods are Secondary woods (Plantations)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is mainly broadleaved stands?",
+            "Name": "What proportion of your woodland is mainly broadleaved stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is mainly conifer stands?",
+            "Name": "What proportion of your woodland is mainly conifer stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is a mixture of both broadlead and conifer stands?",
+            "Name": "What proportion of your woodland is a mixture of both broadlead and conifer stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of stands in your woodland are even-aged?",
+            "Name": "What proportion of stands in your woodland are even-aged?",
+            "DataType": "float",
+            "Description": ""
+        },   
+        {"Column": "What proportion of stands in your woodland are uneven-aged?",
+            "Name": "What proportion of stands in your woodland are uneven-aged?",
+            "DataType": "float",
+            "Description": ""
+        },      
+        {"Column": "What best describes your business or professional sector?",
+            "Name": "What best describes your business or professional sector?",
+            "DataType": "string",
+            "Description": "What was the business or professional sector of the person answering the survey?"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Which of the following most accurately reflects your position?",
+        "Palette": [{
+            "Name": "Professional: I have a professional or personal interest in forests and forestry in the UK",
+            "Hex": "59a14f"
+        },
+        {
+            "Name": "Woodland owner: I own land containing woodland (a single woodland property)",
+            "Hex": "9c755f"
+        },            
+        {
+            "Name": "Agent: I am acting on behalf of an owner of woodland (a single woodland property or multiple woodland properties)",
+            "Hex": "f28e2b"
+        },
+        {
+            "Name": "Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry",
+            "Hex": "edc948"
+        },
+        {
+            "Name": "Agent: I manage my own woodland (owned or leased), and I also manage woodland on behalf of other woodland owners",
+            "Hex": "bab0ac"
+        },
+        {
+            "Name": "Woodland owner: I own land containing woodland (multiple woodland properties)",
+            "Hex": "e15759"
+        },
+        {
+            "Name": "Business: I manage my own woodland (owned or leased) and have a forestry business (tree nursery or wood-processing)",
+            "Hex": "b07aa1"
+        },
+        {
+            "Name": "Business: Wood-processing sector (e.g. haulier, sawmill, wood user)",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Business: Tree nursery",
+            "Hex": "ff9da7"
+        }
+        ]
+    }]
+}
