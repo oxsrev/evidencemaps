@@ -95,10 +95,6 @@
             "Hex": "9c755f"
         },            
         {
-            "Name": "Agent: I am acting on behalf of an owner of woodland (a single woodland property or multiple woodland properties)",
-            "Hex": "f28e2b"
-        },
-        {
             "Name": "Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry",
             "Hex": "edc948"
         },
@@ -121,6 +117,10 @@
         {
             "Name": "Business: Tree nursery",
             "Hex": "ff9da7"
+        },
+        {
+            "Name": "Tenant: I lease land containing woodland (a single woodland property or multiple woodland properties)",
+            "Hex": "f28e2b"
         }
         ]
     }]
