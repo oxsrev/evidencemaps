@@ -13,17 +13,17 @@
         { "File": "FCCWG", 
             "Name": "Forestry and Climate Change Working Group", 
              "ExternalUrl": "" }],
-    "Projection": "eer",
+    "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Which of the following most accurately reflects your position?",
     "ClusterDistance": 40, 
     "MapCentre": [0, 0],
-    "MapZoomLevel": 3,
+    "MapZoomLevel": 1,
     "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "EER",
-        "Name": "EER",
-        "Description": "EER boundaries"
+        "File": "world110",
+        "Name": "world110",
+        "Description": "world110"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
