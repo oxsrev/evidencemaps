@@ -13,7 +13,7 @@
         { "File": "FCCWG", 
             "Name": "Forestry and Climate Change Working Group", 
              "ExternalUrl": "" }],
-    "Projection": "standard",
+    "Projection": "eer",
     "DisplayMode": "cluster",
     "DisplayUnit": "Which of the following most accurately reflects your position?",
     "ClusterDistance": 40, 
