@@ -21,9 +21,9 @@
     "MapZoomLevel": 1,
     "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "NUTS_general",
-        "Name": "Land",
-        "Description": "NUTS boundaries"
+        "File": "EER",
+        "Name": "EER",
+        "Description": "EER boundaries"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
