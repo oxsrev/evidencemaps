@@ -18,7 +18,7 @@
     "DisplayUnit": "Which of the following most accurately reflects your position?",
     "ClusterDistance": 40, 
     "MapCentre": [-5, 55],
-    "MapZoomLevel": 11,
+    "MapZoomLevel": 1,
     "MaxPieSize": 50,
     "BaseLayers": [{
         "File": "NUTS_general",
