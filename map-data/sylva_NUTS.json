@@ -21,9 +21,9 @@
     "MapZoomLevel": 11,
     "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "world110",
-        "Name": "world110",
-        "Description": "world110"
+        "File": "ukregions",
+        "Name": "ukregions",
+        "Description": "UK regions"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
