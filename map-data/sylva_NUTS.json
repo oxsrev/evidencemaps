@@ -1,5 +1,5 @@
 {
-    "Name": "British Woodland Survey - 2020 - NUTS2",
+    "Name": "British Woodland Survey - 2020 - NUTS",
     "Description": "The British Woodlands Survey 2020 (BWS2020) was launched in April 2020 and remains open until the 19th July. In our new survey, we want to understand any changes in awareness, action and aspiration among previous respondents, and hopefully reach even more landowners, land managers, agents, and businesses who have an interest in our trees and forests. BWS2020 comes five years after the groundbreaking British Woodlands Survey of 2015, which explored awareness, action and aspiration among Britain's forestry community in relation to environmental change. Recent British Woodland Surveys have reached those responsible for managing one-fifth of all UK woodland area, and the results have influenced policy and practice at the highest levels. BWS2020 is funded by the Forestry Commission. The survey is supported by the Forestry and Climate Change Working Group whose members include representatives from Confor, Country Land & Business Association, Defra, Forestry Commission, Forest Research, Future Trees Trust, Institute of Chartered Foresters, Natural England, Pryor and Rickett, Royal Forestry Society, Sylva Foundation, Tilhill, Tree Council, Woodland Heritage and Woodland Trust.",
     "PublicationReference": "To read more go to BWS website",
     "PublicationUrl": "https://sylva.org.uk/bws2020",
@@ -21,9 +21,9 @@
     "MapZoomLevel": 1,
     "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "ukregions",
-        "Name": "ukregions",
-        "Description": "UK regions"
+        "File": "world50",
+        "Name": "world50",
+        "Description": " regions"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
