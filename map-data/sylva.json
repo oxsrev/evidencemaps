@@ -23,7 +23,7 @@
     "BaseLayers": [{
         "File": "world50",
         "Name": "Land",
-        "Description": "13.27"
+        "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
