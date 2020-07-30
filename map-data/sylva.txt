@@ -11,7 +11,7 @@ ID	Which of the following most accurately reflects your position?	LatDD	LonDD	Wh
 26	Woodland owner: I own land containing woodland (a single woodland property)	52.7338	0.73334					100			100		100		East of England
 31	Professional: I have a professional or personal interest in forests and forestry in the UK	57.07546	-2.78023											Forest industry	Scotland
 32	Woodland owner: I own land containing woodland (a single woodland property)	52.7372	1.01902	50				50	30		70	100			East of England
-34	Professional: I have a professional or personal interest in forests and forestry in the UK												Research institute	
+34	Professional: I have a professional or personal interest in forests and forestry in the UK													Research institute	
 35	Woodland owner: I own land containing woodland (a single woodland property)	53.00975	-2.85593	0	0	0	0	100	100	0	0	100	0		Wales
 37	Woodland owner: I own land containing woodland (a single woodland property)	51.44834	-3.44516	95					100	0			50		Wales
 40	Woodland owner: I own land containing woodland (a single woodland property)	52.50454	0.4559					100	100			95	5		East of England
@@ -101,7 +101,7 @@ ID	Which of the following most accurately reflects your position?	LatDD	LonDD	Wh
 212	Professional: I have a professional or personal interest in forests and forestry in the UK	51.65275	-0.07931											Public sector - central/devolved government	London
 218	Professional: I have a professional or personal interest in forests and forestry in the UK	51.44907	-0.106											Public sector - local government	London
 219	Woodland owner: I own land containing woodland (a single woodland property)	54.31073	-2.86314				100		100				100		North West
-225	Woodland owner: I own land containing woodland (multiple woodland properties)		49				51	80		20	60	40		
+225	Woodland owner: I own land containing woodland (multiple woodland properties)			49				51	80		20	60	40		
 226	Professional: I have a professional or personal interest in forests and forestry in the UK	51.53267	-0.12188											Other	London
 228	Woodland owner: I own land containing woodland (a single woodland property)	53.24593	-3.54851	5				95	90		10	95	5		Wales
 229	Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry	54.35656	-2.90794	47	53				84	16		20	80	Forest industry	North West
