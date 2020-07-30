@@ -31,6 +31,11 @@
             "DataType": "string",
             "Description": "What was the position of the person taking the survey"
         },
+        {"Column": "Region",
+            "Name": "Region",
+            "DataType": "string",
+            "Description": ""
+        },
         {"Column": "What proportion of your woods are Ancient woodland (Semi-natural)?",
             "Name": "What proportion of your woods are Ancient woodland (Semi-natural)?",
             "DataType": "float",
