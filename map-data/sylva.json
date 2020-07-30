@@ -22,7 +22,7 @@
     "MaxPieSize": 50,
     "BaseLayers": [{
         "File": "world50",
-        "Name": "14.19",
+        "Name": "14.23 - new sylva",
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [{
