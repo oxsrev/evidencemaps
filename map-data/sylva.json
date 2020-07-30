@@ -22,7 +22,7 @@
     "MaxPieSize": 50,
     "BaseLayers": [{
         "File": "world50",
-        "Name": "Land",
+        "Name": "14.19",
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [{
