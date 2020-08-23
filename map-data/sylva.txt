@@ -64,7 +64,6 @@ ID	Which of the following most accurately reflects your position?	LatDD	LonDD	Wh
 126	Woodland owner: I own land containing woodland (a single woodland property)	57.58061	-2.78542					100	15	75	10	100			Scotland
 127	Woodland owner: I own land containing woodland (a single woodland property)	51.07371	0.01926	90		5		5	80	5		70	30		South East
 128	Woodland owner: I own land containing woodland (a single woodland property)	50.98223	0.67263	100					100				100		South East
-129	Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry	54.41667	-7.2				5	95	30	70		95	5	Research institute	Northern Ireland
 130	Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry	56.80877	-2.55604				25	75	25	75		70	30	Forest industry	Scotland
 131	Woodland owner: I own land containing woodland (a single woodland property)	53.292	-1.68503				80	20	60	20	20	30	70		East Midlands
 134	Woodland owner: I own land containing woodland (multiple woodland properties)	52.96957	-0.02472				5	95	80	10	10	90	10		East Midlands
