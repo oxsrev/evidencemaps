@@ -1,0 +1,133 @@
+{
+    "Name": "The Environmental, Socio-Economic, and Health Impacts of Wood Fuel Value Chains in Sub-Saharan Africa",
+    "Description": "In Sub-Saharan Africa (SSA), the production and use of woodfuel remains an important socio-economic activity with more than 70% of the population relying on woodfuel as their primary household energy source. Despite their socio-economic significance, woodfuel value chains are often viewed negatively due to their association with detrimental health and environmental impacts. However, the lack of sound evidence and limited understanding of the role of contextual factors in influencing the various impacts of woodfuel value chains have prevented the formulation of properly guided policy interventions. This systematic map is to provide a comprehensive review of the environmental, socio-economic, and health impacts of woodfuel value chains across SSA. Authors:  Phosiso Sola,  Paolo Omar Cerutti,  Wen Zhou,  Denis Gautier, Miyuki Iiyama,  Jolien Schure,  Audrey Chenevoy,  Jummai Yila,  Vanessa Dufe,  Robert Nasi, Gill Shepherd, Gillian Petrokofsky",
+    "PublicationUrl": "https://doi.org/10.1186/s13750-017-0082-2",
+    "PublicationReference": "Phosiso S, Cerutti PO, Zhou W, Gautier D Iiyama M, Shure J, Chenevoy A Yila Y, Dufe ,  Nasi R, Shepherd G, Petrokofsky G (2017) Environmental Evidence 6(4)",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Woodfuel assessed",
+    "ClusterDistance": 500,
+    "MapCentre": [35, 0],
+    "MapZoomLevel": 2.25,
+    "MaxPieSize": 23,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."
+    }],
+    "Logos": [{
+            "File": "world-argoforestry-centre",
+            "Name": "World Agroforestry Centre",
+            "ExternalUrl": "http://www.worldagroforestry.org/"
+        }, {
+            "File": "dfid",
+            "Name": "Department for International Development",
+            "ExternalUrl": "https://www.gov.uk/government/organisations/department-for-international-development"
+        },
+        {
+            "File": "cifor",
+            "Name": "CIFOR",
+            "ExternalUrl": "https://www.cifor.org/"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "http://www.ox.ac.uk/"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Woodfuel assessed",
+        "Palette": [{
+                "Name": "charcoal",
+                "Hex": "812630"
+            },
+            {
+                "Name": "firewood",
+                "Hex": "D2BBB0"
+            },
+            {
+                "Name": "both",
+                "Hex": "aa7070"
+            }
+        ]
+    }],
+    "Fields": [{
+            "Column": "Forest type  ",
+            "Name": "Forest type",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Natural/planted",
+            "Name": "Natural or Planted?",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Study outcomes",
+            "Name": "Study outcomes",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Activity assessed",
+            "Name": "Activity assessed",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Woodfuel assessed",
+            "Name": "Woodfuel assessed",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Primary source of woodfuel used for domestic consumption",
+            "Name": "Primary source of domestic woodfuel",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Primary source of woodfuel used for commercial purposes",
+            "Name": "Primary source of commercial woodfuel",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Tenure Regime type",
+            "Name": "Tenure Regime type",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Source of socioeconomic data",
+            "Name": "Source of socioeconomic data",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Source of health data",
+            "Name": "Source of health data",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Source of environmental data",
+            "Name": "Source of environmental data",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Year published",
+            "Name": "Year published",
+            "DataType": "float",
+            "Description": "Year of publication"
+        },
+        {
+            "Column": "Year conducted (final year)",
+            "Name": "Year conducted (final year)",
+            "DataType": "float",
+            "Description": "Year conducted (final year)"
+        }
+    ]
+}

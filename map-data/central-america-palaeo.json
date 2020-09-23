@@ -1,0 +1,215 @@
+{
+    "Name": "Palaeo-environmental archives of Central America",
+    "Description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "ProxyGroup",
+    "ClusterDistance": 125,
+    "MapCentre": [-80, 15],
+    "MapZoomLevel": 8,
+    "MaxPieSize": 100,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."
+    }],
+    "Fields": [{
+            "Column": "Proxy",
+            "Name": "Proxy Measure",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Type_of_Ar",
+            "Name": "Environmental Archive",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "BIOME_NAME",
+            "Name": "Biome",
+            "DataType": "string",
+            "Description": "As per WWF biomes"
+        },
+        {
+            "Column": "ECO_NAME",
+            "Name": "Ecoregion",
+            "DataType": "string",
+            "Description": "As per WWF biomes"
+        },
+        {
+            "Column": "Authors",
+            "Name": "Author",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Journal",
+            "Name": "Publication Journal",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "DEM 30m",
+            "Name": "Elevation",
+            "DataType": "float",
+            "unit": "metres above sea level",
+            "Description": ""
+        },
+        {
+            "Column": "Max",
+            "Name": "Age: Newest",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "Min",
+            "Name": "Age: Oldest",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "AgeLength",
+            "Name": "Length of Time Series",
+            "DataType": "float",
+            "unit": "years",
+            "Description": ""
+        },
+        {
+            "Column": "Average Annual Rainfall (mm)",
+            "Name": "Average Annual Rainfall",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Wettest Month (mm)",
+            "Name": "Wettest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Driest Month (mm)",
+            "Name": "Driest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Wettest Quarter (mm)",
+            "Name": "Wettest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Driest Quarter (mm)",
+            "Name": "Driest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": ""
+        },
+        {
+            "Column": "Coefficient of Variance",
+            "Name": "Coefficient of Variance",
+            "DataType": "float",
+            "unit": "cv",
+            "Description": "Ratio of the standard deviation"
+        }
+    ],
+    "Logos": [{
+            "File": "nerc",
+            "Name": "NERC",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "niu",
+            "Name": "NIU",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "seh",
+            "Name": "St Edmund Hall",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "ProxyGroup",
+        "Palette": [ {
+            "Name": "Charcoal",
+            "Hex": "000000"
+        }, {
+            "Name": "Chironomids",
+            "Hex": "aaffc3"
+        }, {
+            "Name": "dC13",
+            "Hex": "911eb4"
+        }, {
+            "Name": "Dendrochronology",
+            "Hex": "9A6324"
+        }, {
+            "Name": "Diatoms",
+            "Hex": "42d4f4"
+        }, {
+            "Name": "dN15",
+            "Hex": "ffd8b1"
+        }, {
+            "Name": "dO18",
+            "Hex": "4363d8"
+        }, {
+            "Name": "Foraminifera",
+            "Hex": "ffffff"
+        }, {
+            "Name": "Geochemistry",
+            "Hex": "f032e6"
+        }, {
+            "Name": "Leaf Wax Lipids",
+            "Hex": "808000"
+        }, {
+            "Name": "LOI (Carbonates)",
+            "Hex": "a9a9a9"
+        }, {
+            "Name": "LOI (Organic)",
+            "Hex": "fffac8"
+        }, {
+            "Name": "Macro Fossils",
+            "Hex": "fabebe"
+        }, {
+            "Name": "Magnetic Succeptibility",
+            "Hex": "e6194B"
+        },{
+            "Name": "Molluscs",
+            "Hex": "000075"
+        }, {
+            "Name": "Ostracodea",
+            "Hex": "e6beff"
+        },  {
+            "Name": "Physical Characteristics",
+            "Hex": "800000"
+        }, {
+            "Name": "Phytoliths",
+            "Hex": "000080"
+        }, {
+            "Name": "Pollen",
+            "Hex": "3cb44b"
+        },{
+            "Name": "Testate amoebae",
+            "Hex": "f58231"
+        }]
+    }]
+}
