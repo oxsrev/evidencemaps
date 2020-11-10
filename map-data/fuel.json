@@ -1,8 +1,8 @@
 {
     "Name": "Modern Energy Cooking Services",
-    "Description": "Evidence map of studies on modern energy cooking systems and related initiatives",
-    "PublicationReference": "For help using the tool follow link",
-    "PublicationUrl": "https://github.com/oxsrev/evidencemaps/blob/master/Map%20User%20Guides/Clean%20Cooking%20User%20Guide.pdf",
+    "Description": "Evidence map of studies on modern energy cooking systems and related initiatives. For help using the tool follow link: https://github.com/oxsrev/evidencemaps/blob/master/Map%20User%20Guides/Clean%20Cooking%20User%20Guide.pdf",
+    "PublicationReference": "Petrokofsky, Leo, Harvey, William, & Petrokofsky, Gillian. (2020). Evidence map of studies on modern energy cooking systems and related initiatives (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4266226",
+    "PublicationUrl": "http://doi.org/10.5281/zenodo.4266226",
     "Logos": [
         { "File": "ESMAP", 
           "Name": "ESMAP", 

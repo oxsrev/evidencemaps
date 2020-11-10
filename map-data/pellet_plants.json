@@ -6,6 +6,8 @@
     "DisplayUnit": "Plant Type",
     "ClusterDistance": 50,
     "MapCentre": [-85, 35],
+    "PublicationReference": "Petrokofsky, Leo, Harvey, Francis, Petrokofsky, Gillian, & Harvey, William. (2020). Wood pellet plants in Southeastern USA (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4046710",
+    "PublicationUrl": "http://doi.org/10.5281/zenodo.4046710",
     "MapZoomLevel": 10,
     "MaxPieSize": 20,
     "BaseLayers": [{
