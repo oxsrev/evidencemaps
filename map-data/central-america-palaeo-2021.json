@@ -12,7 +12,7 @@
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "60/80"
+        "Description": "60/80 map zoom 10"
     }],
     "Fields": [{
             "Column": "Proxy",
