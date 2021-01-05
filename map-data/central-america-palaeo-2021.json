@@ -5,14 +5,14 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Proxy",
-    "ClusterDistance": 50,
+    "ClusterDistance": 60,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
-    "MaxPieSize": 100,
+    "MaxPieSize": 80,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "50km cluster 100 max pie"
+        "Description": "60/80"
     }],
     "Fields": [{
             "Column": "Proxy",
@@ -220,7 +220,7 @@
             "Hex": "228c68"
         },{
             "Name": "Pollen",
-            "Hex": "235b54"
+            "Hex": "66CD00"
         },{
             "Name": "Sporormiella",
             "Hex": "654321"
