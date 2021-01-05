@@ -8,7 +8,7 @@
     "ClusterDistance": 125,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
-    "MaxPieSize": 40,
+    "MaxPieSize": 20,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
@@ -145,94 +145,94 @@
         "Column": "Proxy",
         "Palette": [ {
             "Name": "Arcaheozoological",
-            "Hex": "#991919"
+            "Hex": "991919"
         }, {
             "Name": "Biogenic Silica",
-            "Hex": "#ffffff"
+            "Hex": "ffffff"
         }, {
             "Name": "Bulk Density",
-            "Hex": "#edeff3"
+            "Hex": "edeff3"
         }, {
             "Name": "Carbon (Inorganic)",
-            "Hex": "#96341c"
+            "Hex": "96341c"
         },  {
             "Name": "Carbon (Organic)",
-            "Hex": "#632819"
+            "Hex": "632819"
         },  {
             "Name": "Charcoal (Macroscopic)",
-            "Hex": "#202020"
+            "Hex": "202020"
         }, {
             "Name": "Charcoal (Microscopic)",
-            "Hex": "#606060"
+            "Hex": "606060"
         }, {
             "Name": "Charcoal (Undefined)",
-            "Hex": "#909090"
+            "Hex": "909090"
         }, {
             "Name": "Chironomids",
-            "Hex": "#0ec434"
+            "Hex": "0ec434"
         }, {
             "Name": "Cladocera",
-            "Hex": "#228c68"
+            "Hex": "228c68"
         }, {
             "Name": "d13C",
-            "Hex": "#2f2aa0"
+            "Hex": "2f2aa0"
         }, {
             "Name": "d15N",
-            "Hex": "#3750db"
+            "Hex": "3750db"
         }, {
             "Name": "d18O",
-            "Hex": "#3998f5"
+            "Hex": "3998f5"
         }, {
             "Name": "dDwax",
-            "Hex": "#277da7"
+            "Hex": "277da7"
         }, {
             "Name": "Dendro",
-            "Hex": "#7dfc00"
+            "Hex": "7dfc00"
         }, {
             "Name": "Diatoms",
-            "Hex": "#29bdab"
+            "Hex": "29bdab"
         },{
             "Name": "Foraminifera",
-            "Hex": "#fcff5d"
+            "Hex": "fcff5d"
         }, {
             "Name": "Geochemistry",
-            "Hex": "#37294f"
+            "Hex": "37294f"
         },  {
             "Name": "Grain Size Analysis",
-            "Hex": "#b732cc"
+            "Hex": "b732cc"
         },{
             "Name": "Macro Fossils",
-            "Hex": "#c56133"
+            "Hex": "c56133"
         },{
             "Name": "Magnetic Susceptibility",
-            "Hex": "#f22020"
+            "Hex": "f22020"
         },{
             "Name": "Micro Morphology",
-            "Hex": "#e68f66"
+            "Hex": "e68f66"
         },{
             "Name": "Molluscs",
-            "Hex": "#ffcba5"
+            "Hex": "ffcba5"
         },{
             "Name": "Ostracodea",
-            "Hex": "#ffc413"
+            "Hex": "ffc413"
         },{
             "Name": "Phytoliths",
-            "Hex": "#228c68"
+            "Hex": "228c68"
         },{
             "Name": "Pollen",
-            "Hex": "#235b54"
+            "Hex": "235b54"
         },{
             "Name": "Sporormiella",
-            "Hex": "#654321"
+            "Hex": "654321"
         },{
             "Name": "Stratagraphic Description",
-            "Hex": "#5d4c86"
+            "Hex": "5d4c86"
         },{
             "Name": "Testate Amoebae",
-            "Hex": "#f07cab"
+            "Hex": "f07cab"
         },{
             "Name": "Thecamoebians",
-            "Hex": "#d30b94"
+            "Hex": "d30b94"
         }]
     }]
 }
