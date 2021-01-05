@@ -5,14 +5,14 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Proxy",
-    "ClusterDistance": 125,
+    "ClusterDistance": 150,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
-    "MaxPieSize": 20,
+    "MaxPieSize": 120,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "Political boundaries at 50m resolution."
+        "Description": "Political boundaries at 500m resolution."
     }],
     "Fields": [{
             "Column": "Proxy",
@@ -197,7 +197,7 @@
         }, {
             "Name": "Geochemistry",
             "Hex": "37294f"
-        },  {
+        },{
             "Name": "Grain Size Analysis",
             "Hex": "b732cc"
         },{
