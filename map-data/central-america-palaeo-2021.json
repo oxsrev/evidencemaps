@@ -7,12 +7,12 @@
     "DisplayUnit": "Proxy",
     "ClusterDistance": 60,
     "MapCentre": [-80, 15],
-    "MapZoomLevel": 10,
+    "MapZoomLevel": 12,
     "MaxPieSize": 80,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "60/80 map zoom 10"
+        "Description": "60/80 map zoom 12"
     }],
     "Fields": [{
             "Column": "Proxy",
