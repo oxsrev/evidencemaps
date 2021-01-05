@@ -5,14 +5,14 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Proxy",
-    "ClusterDistance": 60,
+    "ClusterDistance": 50,
     "MapCentre": [-85, 15],
     "MapZoomLevel": 13,
-    "MaxPieSize": 80,
+    "MaxPieSize": 40,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "60/80 map zoom 13, -85"
+        "Description": "50/40 map zoom 13, -85"
     }],
     "Fields": [{
             "Column": "Proxy",
