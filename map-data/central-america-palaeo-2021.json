@@ -1,0 +1,208 @@
+{
+    "Name": "Bibliometric analysis of terrestrial Holocene palaeoenvironmental proxies from across the Central American Isthmus",
+    "Description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "ProxyGroup",
+    "ClusterDistance": 125,
+    "MapCentre": [-80, 15],
+    "MapZoomLevel": 8,
+    "MaxPieSize": 100,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "Political boundaries at 50m resolution."
+    }],
+    "Fields": [{
+            "Column": "Proxy",
+            "Name": "Proxy Measure",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Environmental Archive",
+            "Name": "Environmental Archive",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Journal",
+            "Name": "Publication Journal",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Newest Date (B.C.E/C.E)",
+            "Name": "Newest Date (B.C.E/C.E)",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "Oldest Date (B.C.E/C.E)",
+            "Name": "Oldest Date (B.C.E/C.E)",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": ""
+        },
+        {
+            "Column": "Length of Time Series",
+            "Name": "Length of Time Series",
+            "DataType": "float",
+            "unit": "years",
+            "Description": ""
+        },
+        {
+            "Column": "Unit of Proxy",
+            "Name": "Unit of Proxy",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Proxy Interpretation",
+            "Name": "Proxy Interpretation",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Number of Independent Dates",
+            "Name": "Number of Independent Dates",
+            "DataType": "float",
+            "unit": "number",
+            "Description": ""
+        },
+        {
+            "Column": "Sequence Dating",
+            "Name": "Sequence Dating",
+            "DataType": "string",
+            "Description": "Was the sequence dated at the top and/or the bottom?"
+        },
+        {
+            "Column": "Continuous Record",
+            "Name": "Continuous Record",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Hard Water Error",
+            "Name": "Hard Water Error",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Presentation of Data",
+            "Name": "Presentation of Data",
+            "DataType": "string",
+            "Description": "Did the study present the data against depth or time?"
+        },
+        {
+            "Column": "Evidence of Agriculture",
+            "Name": "Evidence of Agriculture",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Raw Data Available",
+            "Name": "Raw Data Available",
+            "DataType": "string",
+            "Description": ""
+        }
+    ],
+    "Logos": [{
+            "File": "nerc",
+            "Name": "NERC",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "niu",
+            "Name": "NIU",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "seh",
+            "Name": "St Edmund Hall",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "OXSREV",
+            "Name": "Oxford Systematic Reviews LLP",
+            "ExternalUrl": "https://www.oxsrev.org"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Proxy",
+        "Palette": [ {
+            "Name": "Charcoal",
+            "Hex": "000000"
+        }, {
+            "Name": "Chironomids",
+            "Hex": "aaffc3"
+        }, {
+            "Name": "dC13",
+            "Hex": "911eb4"
+        }, {
+            "Name": "Dendrochronology",
+            "Hex": "9A6324"
+        }, {
+            "Name": "Diatoms",
+            "Hex": "42d4f4"
+        }, {
+            "Name": "dN15",
+            "Hex": "ffd8b1"
+        }, {
+            "Name": "dO18",
+            "Hex": "4363d8"
+        }, {
+            "Name": "Foraminifera",
+            "Hex": "ffffff"
+        }, {
+            "Name": "Geochemistry",
+            "Hex": "f032e6"
+        }, {
+            "Name": "Leaf Wax Lipids",
+            "Hex": "808000"
+        }, {
+            "Name": "Carbonate Matter",
+            "Hex": "a9a9a9"
+        }, {
+            "Name": "Organic Matter",
+            "Hex": "fffac8"
+        }, {
+            "Name": "Macro Fossils",
+            "Hex": "fabebe"
+        }, {
+            "Name": "Magnetic Succeptibility",
+            "Hex": "e6194B"
+        },{
+            "Name": "Molluscs",
+            "Hex": "000075"
+        }, {
+            "Name": "Ostracodea",
+            "Hex": "e6beff"
+        },  {
+            "Name": "Physical Characteristics",
+            "Hex": "800000"
+        }, {
+            "Name": "Phytoliths",
+            "Hex": "000080"
+        }, {
+            "Name": "Pollen",
+            "Hex": "3cb44b"
+        },{
+            "Name": "Testate amoebae",
+            "Hex": "f58231"
+        }]
+    }]
+}
