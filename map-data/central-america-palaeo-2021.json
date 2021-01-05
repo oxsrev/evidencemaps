@@ -7,7 +7,7 @@
     "DisplayUnit": "Proxy",
     "ClusterDistance": 60,
     "MapCentre": [-80, 15],
-    "MapZoomLevel": 8,
+    "MapZoomLevel": 10,
     "MaxPieSize": 80,
     "BaseLayers": [{
         "File": "world50",
