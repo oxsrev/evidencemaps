@@ -4,7 +4,7 @@
     "Publication": "",
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "ProxyGroup",
+    "DisplayUnit": "Proxy",
     "ClusterDistance": 125,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
