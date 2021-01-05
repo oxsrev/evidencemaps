@@ -5,14 +5,14 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Proxy",
-    "ClusterDistance": 150,
+    "ClusterDistance": 50,
     "MapCentre": [-80, 15],
     "MapZoomLevel": 8,
-    "MaxPieSize": 120,
+    "MaxPieSize": 40,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "Political boundaries at 500m resolution."
+        "Description": "50km cluster"
     }],
     "Fields": [{
             "Column": "Proxy",
