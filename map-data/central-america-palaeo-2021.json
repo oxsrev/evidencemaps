@@ -8,11 +8,11 @@
     "ClusterDistance": 50,
     "MapCentre": [-85, 15],
     "MapZoomLevel": 13,
-    "MaxPieSize": 40,
+    "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "50/40 map zoom 13, -85"
+        "Description": "50/100 map zoom 13, -85"
     }],
     "Fields": [{
             "Column": "Proxy",
