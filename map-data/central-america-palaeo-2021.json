@@ -1,6 +1,6 @@
 {
     "Name": "Bibliometric analysis of terrestrial Holocene palaeoenvironmental proxies from across the Central American Isthmus",
-    "Description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (c.1200B.P. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
+    "Description": "A systematic map of proxy records extracted from terrestrial archives in Central America spanning the Holocene (12,000B.C.E. to present day). Data extracted includes: reference, title, author(s), journal, year, language, country, name of sites, longitude, latitude, elevation, type of archive, proxies, dating methods and time span.",
     "Publication": "",
     "Projection": "standard",
     "DisplayMode": "cluster",
@@ -118,7 +118,7 @@
             "Name": "Oldest Holocene Date (B.C.E/C.E)",
             "DataType": "float",
             "unit": "year BCE/CE",
-            "Description": "Oldest Holocene date in the time series (-12,000 B.C.E to 2020 C.E)"
+            "Description": "Oldest Holocene date in the time series (12,000B.C.E to 2020C.E)"
         },
         {
             "Column": "Length of Time Series",
