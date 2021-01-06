@@ -18,65 +18,133 @@
             "Column": "Proxy",
             "Name": "Proxy Measure",
             "DataType": "string",
-            "Description": ""
+            "Description": "Proxy used for reconstructing environment"
         },
         {
             "Column": "Environmental Archive",
             "Name": "Environmental Archive",
             "DataType": "string",
-            "Description": ""
+            "Description": "Depositional archive from which environmental proxies were found"
+        },
+        {
+            "Column": "Ecoregion Name",
+            "Name": "Ecoregion Name",
+            "DataType": "string",
+            "Description": "Ecoregion of the study site"
+        },
+        {
+            "Column": "Biome Name",
+            "Name": "Biome Name",
+            "DataType": "string",
+            "Description": "Biome of the study site"
         },
         {
             "Column": "Journal / Secondary Title",
             "Name": "Publication Journal",
             "DataType": "string",
-            "Description": ""
+            "Description": "Journal in which the study was published"
         },
         {
             "Column": "Country",
             "Name": "Country",
             "DataType": "string",
-            "Description": ""
+            "Description": "Country in which the study was conducted"
+        },
+        {
+            "Column": "Publication Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "unit": "Year",
+            "Description": "Year in which the study was first published"
+        },
+        {
+            "Column": "Average Annual Precipitation",
+            "Name": "Average Annual Precipitation",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average annual preciptation of the study site"
+        },
+        {
+            "Column": "Covariance of Annual Precipitation",
+            "Name": "Covariance of Annual Precipitation",
+            "DataType": "float",
+            "unit": "cv",
+            "Description": "Modern covariance of annual preciptation of the study site"
+        },
+        {
+            "Column": "Driest Month",
+            "Name": "Driest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average monthly preciptation of the driest month for the study site"
+        },
+        {
+            "Column": "Driest Quarter",
+            "Name": "Driest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average quarterly preciptation of the driest quarter for the study site"
+        },
+        {
+            "Column": "Wettest Month",
+            "Name": "Wettest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average monthly preciptation of the wettest month for the study site"
+        },
+        {
+            "Column": "Wettest Quarter",
+            "Name": "Wettest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average quarterly preciptation of the wettest quarter for the study site"
+        },
+        {
+            "Column": "Meters Above Sea Level",
+            "Name": "Meters Above Sea Level",
+            "DataType": "float",
+            "unit": "m",
+            "Description": "Elevation of study site above sea level"
         },
         {
             "Column": "Newest Date (B.C.E/C.E)",
             "Name": "Newest Date (B.C.E/C.E)",
             "DataType": "float",
             "unit": "year BCE/CE",
-            "Description": ""
+            "Description": "Most recent date in the time series"
         },
         {
-            "Column": "Oldest Date (B.C.E/C.E)",
-            "Name": "Oldest Date (B.C.E/C.E)",
+            "Column": "Oldest Holocene Date (B.C.E/C.E)",
+            "Name": "Oldest Holocene Date (B.C.E/C.E)",
             "DataType": "float",
             "unit": "year BCE/CE",
-            "Description": ""
+            "Description": "Oldest Holocene date in the time series (-12,000 B.C.E to 2020 C.E)"
         },
         {
             "Column": "Length of Time Series",
             "Name": "Length of Time Series",
             "DataType": "float",
             "unit": "years",
-            "Description": ""
+            "Description": "Total length, in years, of studied time series"
         },
         {
             "Column": "Unit of Proxy",
             "Name": "Unit of Proxy",
             "DataType": "string",
-            "Description": ""
+            "Description": "Units used to measure the proxy in the study"
         },
         {
             "Column": "Proxy Interpretation",
             "Name": "Proxy Interpretation",
             "DataType": "string",
-            "Description": ""
+            "Description": "Authors' interpretation of the proxy data"
         },
         {
             "Column": "Number of Independent Dates",
             "Name": "Number of Independent Dates",
             "DataType": "float",
             "unit": "number",
-            "Description": ""
+            "Description": "Number of independent dates used to construct time series"
         },
         {
             "Column": "Sequence Dating",
@@ -88,13 +156,13 @@
             "Column": "Continuous Record",
             "Name": "Continuous Record",
             "DataType": "string",
-            "Description": ""
+            "Description": "Was the record reported as continuous?"
         },
         {
             "Column": "Hard Water Error",
             "Name": "Hard Water Error",
             "DataType": "string",
-            "Description": ""
+            "Description": "Did the author report a problem with 'hard water'?"
         },
         {
             "Column": "Presentation of Data",
@@ -106,13 +174,13 @@
             "Column": "Evidence of Agriculture",
             "Name": "Evidence of Agriculture",
             "DataType": "string",
-            "Description": ""
+            "Description": "Did the author present direct or indirect evidence of agriculture?"
         },
         {
             "Column": "Raw Data Available",
             "Name": "Raw Data Available",
             "DataType": "string",
-            "Description": ""
+            "Description": "Did the author make the raw data used in the study available with the publication?"
         }
     ],
     "Logos": [{
@@ -131,14 +199,19 @@
             "ExternalUrl": "ox.ac.uk"
         },
         {
+            "File": "OXSREV",
+            "Name": "Oxford Systematic Reviews LLP",
+            "ExternalUrl": "https://www.oxsrev.org"
+        },
+        {
             "File": "oxford",
             "Name": "University of Oxford",
             "ExternalUrl": "ox.ac.uk"
         },
         {
-            "File": "OXSREV",
-            "Name": "Oxford Systematic Reviews LLP",
-            "ExternalUrl": "https://www.oxsrev.org"
+            "File": "soton",
+            "Name": "University of Southampton",
+            "ExternalUrl": "southampton.ac.uk"
         }
     ],
     "DataPalettes": [{
