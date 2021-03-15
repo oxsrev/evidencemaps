@@ -10,7 +10,7 @@
         "ExternalUrl": "https://www.oxsrev.org" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Program Focus",
+    "DisplayUnit": "Resource Type",
     "ClusterDistance": 500, 
     "MapCentre": [0, 0],
     "MapZoomLevel": 1,
