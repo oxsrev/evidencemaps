@@ -1,0 +1,317 @@
+{
+    "Name": "Forests, Water, and Land Use Change across the Central American Isthmus: Mapping the evidence base for terrestrial Holocene palaeoenvironmental proxies",
+    "Description": "",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Proxy",
+    "ClusterDistance": 50,
+    "MapCentre": [-85, 15],
+    "MapZoomLevel": 13,
+    "MaxPieSize": 100,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Countries",
+        "Description": "50/100 map zoom 13, -85"
+    }],
+    "Fields": [{
+            "Column": "Proxy",
+            "Name": "Proxy Measure",
+            "DataType": "string",
+            "Description": "Proxy used for reconstructing environment"
+        },
+        {
+            "Column": "Cross Cutting Lens",
+            "Name": "Cross Cutting Lens",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Environmental Archive",
+            "Name": "Environmental Archive",
+            "DataType": "string",
+            "Description": "Depositional archive from which environmental proxies were found"
+        },
+        {
+            "Column": "Ecoregion Name",
+            "Name": "Ecoregion Name",
+            "DataType": "string",
+            "Description": "Ecoregion of the study site"
+        },
+        {
+            "Column": "Biome Name",
+            "Name": "Biome Name",
+            "DataType": "string",
+            "Description": "Biome of the study site"
+        },
+        {
+            "Column": "Journal / Secondary Title",
+            "Name": "Publication Journal",
+            "DataType": "string",
+            "Description": "Journal in which the study was published"
+        },
+        {
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": "Country in which the study was conducted"
+        },
+        {
+            "Column": "Publication Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "unit": "Year",
+            "Description": "Year in which the study was first published"
+        },
+        {
+            "Column": "Average Annual Precipitation",
+            "Name": "Average Annual Precipitation",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average annual preciptation of the study site"
+        },
+        {
+            "Column": "Covariance of Annual Precipitation",
+            "Name": "Covariance of Annual Precipitation",
+            "DataType": "float",
+            "unit": "cv",
+            "Description": "Modern covariance of annual preciptation of the study site"
+        },
+        {
+            "Column": "Driest Month",
+            "Name": "Driest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average monthly preciptation of the driest month for the study site"
+        },
+        {
+            "Column": "Driest Quarter",
+            "Name": "Driest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average quarterly preciptation of the driest quarter for the study site"
+        },
+        {
+            "Column": "Wettest Month",
+            "Name": "Wettest Month",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average monthly preciptation of the wettest month for the study site"
+        },
+        {
+            "Column": "Wettest Quarter",
+            "Name": "Wettest Quarter",
+            "DataType": "float",
+            "unit": "mm",
+            "Description": "Modern average quarterly preciptation of the wettest quarter for the study site"
+        },
+        {
+            "Column": "Meters Above Sea Level",
+            "Name": "Meters Above Sea Level",
+            "DataType": "float",
+            "unit": "m",
+            "Description": "Elevation of study site above sea level"
+        },
+        {
+            "Column": "Newest Date (B.C.E/C.E)",
+            "Name": "Newest Date (B.C.E/C.E)",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": "Most recent date in the time series"
+        },
+        {
+            "Column": "Oldest Holocene Date (B.C.E/C.E)",
+            "Name": "Oldest Holocene Date (B.C.E/C.E)",
+            "DataType": "float",
+            "unit": "year BCE/CE",
+            "Description": "Oldest Holocene date in the time series (12,000B.C.E to 2020C.E)"
+        },
+        {
+            "Column": "Length of Time Series",
+            "Name": "Length of Time Series",
+            "DataType": "float",
+            "unit": "years",
+            "Description": "Total length, in years, of studied time series"
+        },
+        {
+            "Column": "Unit of Proxy",
+            "Name": "Unit of Proxy",
+            "DataType": "string",
+            "Description": "Units used to measure the proxy in the study"
+        },
+        {
+            "Column": "Proxy Interpretation",
+            "Name": "Proxy Interpretation",
+            "DataType": "string",
+            "Description": "Authors' interpretation of the proxy data"
+        },
+        {
+            "Column": "Number of Independent Dates",
+            "Name": "Number of Independent Dates",
+            "DataType": "float",
+            "unit": "number",
+            "Description": "Number of independent dates used to construct time series"
+        },
+        {
+            "Column": "Sequence Dating",
+            "Name": "Sequence Dating",
+            "DataType": "string",
+            "Description": "Was the sequence dated at the top and/or the bottom?"
+        },
+        {
+            "Column": "Continuous Record",
+            "Name": "Continuous Record",
+            "DataType": "string",
+            "Description": "Was the record reported as continuous?"
+        },
+        {
+            "Column": "Hard Water Error",
+            "Name": "Hard Water Error",
+            "DataType": "string",
+            "Description": "Did the author report a problem with 'hard water'?"
+        },
+        {
+            "Column": "Presentation of Data",
+            "Name": "Presentation of Data",
+            "DataType": "string",
+            "Description": "Did the study present the data against depth or time?"
+        },
+        {
+            "Column": "Evidence of Agriculture",
+            "Name": "Evidence of Agriculture",
+            "DataType": "string",
+            "Description": "Did the author present direct or indirect evidence of agriculture?"
+        },
+        {
+            "Column": "Raw Data Available",
+            "Name": "Raw Data Available",
+            "DataType": "string",
+            "Description": "Did the author make the raw data used in the study available with the publication?"
+        }
+    ],
+    "Logos": [{
+            "File": "nerc",
+            "Name": "NERC",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "niu",
+            "Name": "NIU",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "seh",
+            "Name": "St Edmund Hall",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "OXSREV",
+            "Name": "Oxford Systematic Reviews LLP",
+            "ExternalUrl": "https://www.oxsrev.org"
+        },
+        {
+            "File": "oxford",
+            "Name": "University of Oxford",
+            "ExternalUrl": "ox.ac.uk"
+        },
+        {
+            "File": "soton",
+            "Name": "University of Southampton",
+            "ExternalUrl": "southampton.ac.uk"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Proxy",
+        "Palette": [ {
+            "Name": "Archaeozoological",
+            "Hex": "991919"
+        }, {
+            "Name": "Biogenic Silica",
+            "Hex": "ffffff"
+        }, {
+            "Name": "Bulk Density",
+            "Hex": "edeff3"
+        }, {
+            "Name": "Carbon (Inorganic)",
+            "Hex": "96341c"
+        },  {
+            "Name": "Carbon (Organic)",
+            "Hex": "632819"
+        },  {
+            "Name": "Charcoal (Macroscopic)",
+            "Hex": "202020"
+        }, {
+            "Name": "Charcoal (Microscopic)",
+            "Hex": "606060"
+        }, {
+            "Name": "Charcoal (Undefined)",
+            "Hex": "909090"
+        }, {
+            "Name": "Chironomids",
+            "Hex": "ffffcc"
+        }, {
+            "Name": "Cladocera",
+            "Hex": "228c68"
+        }, {
+            "Name": "d13C",
+            "Hex": "2f2aa0"
+        }, {
+            "Name": "d15N",
+            "Hex": "3750db"
+        }, {
+            "Name": "d18O",
+            "Hex": "3998f5"
+        }, {
+            "Name": "dDwax",
+            "Hex": "277da7"
+        }, {
+            "Name": "Dendro",
+            "Hex": "7dfc00"
+        }, {
+            "Name": "Diatoms",
+            "Hex": "29bdab"
+        },{
+            "Name": "Foraminifera",
+            "Hex": "fcff5d"
+        }, {
+            "Name": "Geochemistry",
+            "Hex": "37294f"
+        },{
+            "Name": "Grain Size Analysis",
+            "Hex": "b732cc"
+        },{
+            "Name": "Macro Fossils",
+            "Hex": "c56133"
+        },{
+            "Name": "Magnetic Susceptibility",
+            "Hex": "f22020"
+        },{
+            "Name": "Micro Morphology",
+            "Hex": "e68f66"
+        },{
+            "Name": "Molluscs",
+            "Hex": "ffcba5"
+        },{
+            "Name": "Ostracodea",
+            "Hex": "ffc413"
+        },{
+            "Name": "Phytoliths",
+            "Hex": "228c68"
+        },{
+            "Name": "Pollen",
+            "Hex": "66CD00"
+        },{
+            "Name": "Sporormiella",
+            "Hex": "654321"
+        },{
+            "Name": "Stratagraphic Description",
+            "Hex": "5d4c86"
+        },{
+            "Name": "Testate Amoebae",
+            "Hex": "f07cab"
+        },{
+            "Name": "Thecamoebians",
+            "Hex": "d30b94"
+        }]
+    }]
+}
