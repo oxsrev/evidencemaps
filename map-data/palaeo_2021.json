@@ -33,13 +33,13 @@
             "Description": "Depositional archive from which environmental proxies were found"
         },
         {
-            "Column": "Ecoregion Name",
+            "Column": "ECO_NAME",
             "Name": "Ecoregion Name",
             "DataType": "string",
             "Description": "Ecoregion of the study site"
         },
         {
-            "Column": "Biome Name",
+            "Column": "BIOME_NAME",
             "Name": "Biome Name",
             "DataType": "string",
             "Description": "Biome of the study site"
