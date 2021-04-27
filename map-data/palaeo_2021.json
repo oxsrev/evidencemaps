@@ -39,7 +39,7 @@
             "Description": "Ecoregion of the study site"
         },
         {
-            "Column": "BIOME_NAME",
+            "Column": "Biome Name",
             "Name": "Biome Name",
             "DataType": "string",
             "Description": "Biome of the study site"
