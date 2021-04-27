@@ -64,7 +64,7 @@
             "Description": "Year in which the study was first published"
         },
         {
-            "Column": "Average Annual Precipitation",
+            "Column": "Average Annual Rainfall (mm)",
             "Name": "Average Annual Precipitation",
             "DataType": "float",
             "unit": "mm",
@@ -106,7 +106,7 @@
             "Description": "Modern average quarterly preciptation of the wettest quarter for the study site"
         },
         {
-            "Column": "Meters Above Sea Level",
+            "Column": "DEM 30m",
             "Name": "Meters Above Sea Level",
             "DataType": "float",
             "unit": "m",
