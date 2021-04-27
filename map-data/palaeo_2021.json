@@ -27,7 +27,7 @@
             "Description": ""
         },
         {
-            "Column": "Type of Archive",
+            "Column": "Environmental Archive",
             "Name": "Environmental Archive",
             "DataType": "string",
             "Description": "Depositional archive from which environmental proxies were found"
