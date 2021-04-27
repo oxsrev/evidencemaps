@@ -33,7 +33,7 @@
             "Description": "Depositional archive from which environmental proxies were found"
         },
         {
-            "Column": "ECO_NAME",
+            "Column": "Ecoregion Name",
             "Name": "Ecoregion Name",
             "DataType": "string",
             "Description": "Ecoregion of the study site"
@@ -64,7 +64,7 @@
             "Description": "Year in which the study was first published"
         },
         {
-            "Column": "Average Annual Rainfall (mm)",
+            "Column": "Average Annual Rainfall",
             "Name": "Average Annual Precipitation",
             "DataType": "float",
             "unit": "mm",
@@ -106,32 +106,25 @@
             "Description": "Modern average quarterly preciptation of the wettest quarter for the study site"
         },
         {
-            "Column": "DEM 30m",
+            "Column": "Meters Above Sea Level",
             "Name": "Meters Above Sea Level",
             "DataType": "float",
             "unit": "m",
             "Description": "Elevation of study site above sea level"
         },
         {
-            "Column": "Newest Date (B.C.E/C.E)",
-            "Name": "Newest Date (B.C.E/C.E)",
+            "Column": "Newest Date (C.E)",
+            "Name": "Newest Date (C.E)",
             "DataType": "float",
             "unit": "year BCE/CE",
             "Description": "Most recent date in the time series"
         },
         {
-            "Column": "Oldest Holocene Date (B.C.E/C.E)",
-            "Name": "Oldest Holocene Date (B.C.E/C.E)",
+            "Column": "Oldest Date (C.E)",
+            "Name": "Oldest Date (C.E)",
             "DataType": "float",
             "unit": "year BCE/CE",
             "Description": "Oldest Holocene date in the time series (12,000B.C.E to 2020C.E)"
-        },
-        {
-            "Column": "Length of Time Series",
-            "Name": "Length of Time Series",
-            "DataType": "float",
-            "unit": "years",
-            "Description": "Total length, in years, of studied time series"
         },
         {
             "Column": "Unit of Proxy",
