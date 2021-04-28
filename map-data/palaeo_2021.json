@@ -12,11 +12,11 @@
     "BaseLayers": [{
         "File": "world50",
         "Name": "Countries",
-        "Description": "50/100 map zoom 13, -85"
+        "Description": "New Update"
     }],
     "Fields": [{
             "Column": "Proxy",
-            "Name": "Proxy Measure",
+            "Name": "Proxy",
             "DataType": "string",
             "Description": "Proxy used for reconstructing environment"
         },
@@ -31,12 +31,6 @@
             "Name": "Environmental Archive",
             "DataType": "string",
             "Description": "Depositional archive from which environmental proxies were found"
-        },
-        {
-            "Column": "Ecoregion Name",
-            "Name": "Ecoregion Name",
-            "DataType": "string",
-            "Description": "Ecoregion of the study site"
         },
         {
             "Column": "Biome Name",
@@ -106,8 +100,8 @@
             "Description": "Modern average quarterly preciptation of the wettest quarter for the study site"
         },
         {
-            "Column": "Meters Above Sea Level",
-            "Name": "Meters Above Sea Level",
+            "Column": "Metres Above Sea Level",
+            "Name": "Metres Above Sea Level",
             "DataType": "float",
             "unit": "m",
             "Description": "Elevation of study site above sea level"
@@ -127,53 +121,16 @@
             "Description": "Oldest Holocene date in the time series (12,000B.C.E to 2020C.E)"
         },
         {
-            "Column": "Unit of Proxy",
-            "Name": "Unit of Proxy",
-            "DataType": "string",
-            "Description": "Units used to measure the proxy in the study"
-        },
-        {
-            "Column": "Proxy Interpretation",
-            "Name": "Proxy Interpretation",
-            "DataType": "string",
-            "Description": "Authors' interpretation of the proxy data"
-        },
-        {
-            "Column": "Number of Independent Dates",
-            "Name": "Number of Independent Dates",
-            "DataType": "float",
-            "unit": "number",
-            "Description": "Number of independent dates used to construct time series"
-        },
-        {
             "Column": "Sequence Dating",
             "Name": "Sequence Dating",
             "DataType": "string",
             "Description": "Was the sequence dated at the top and/or the bottom?"
         },
         {
-            "Column": "Continuous Record",
-            "Name": "Continuous Record",
-            "DataType": "string",
-            "Description": "Was the record reported as continuous?"
-        },
-        {
-            "Column": "Hard Water Error",
-            "Name": "Hard Water Error",
-            "DataType": "string",
-            "Description": "Did the author report a problem with 'hard water'?"
-        },
-        {
             "Column": "Presentation of Data",
             "Name": "Presentation of Data",
             "DataType": "string",
             "Description": "Did the study present the data against depth or time?"
-        },
-        {
-            "Column": "Evidence of Agriculture",
-            "Name": "Evidence of Agriculture",
-            "DataType": "string",
-            "Description": "Did the author present direct or indirect evidence of agriculture?"
         },
         {
             "Column": "Raw Data Available",
