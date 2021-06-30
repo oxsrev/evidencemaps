@@ -79,7 +79,7 @@
          }
     ],
     "DataPalettes": [{
-        "Column": "Program Focus",
+        "Column": "Rural/Urban/Peri-Urban",
         "Palette": [{
                 "Name": "Rural",
                 "Hex": "331832"
