@@ -1,0 +1,109 @@
+{
+    "Name": "The importance of time-saving as a factor in transitioning from woodfuel to modern cooking energy services: a systematic map",
+    "Description": "BACKGROUND: Over half of the world’s population lack access to modern energy cooking services (MECS) and instead rely on locally harvested biomass for fuel. The collection and burning of such biomass for cooking has significant negative social, health, economic and environmental impacts and is a major sustainability challenge. The adverse development impacts from households' continued dependence on polluting stove-and-fuel combinations are significant. Household Air Pollution (HAP) from biomass fuel use accounts for some 4.3 million premature deaths each year, disproportionately affecting women and children. Fuel harvesting and use represent a significant time burden for women and girls.Time savings can be realised through multiple pathways. Understanding the importance of timesaving as a factor in adoption of clean cooking is thus important in informing the design of cookstove programs and their marketing approach. METHOD: The systematic evidence evaluation of drivers of and barriers to adoption of modern energy systems undertaken for the World Bank’s Energy Sector Management Assistance Program (ESMAP) was further analysed to create a systematic map of evidence relating to time saving attributable to adoption of modern energy systems by traditional fuel users. The umbrella ESMAP evaluation comprised 160 studies, of which 48 are relevant to the current systematic map. RESULTS AND CONCLUSIONS: Time saving was gained from: (i) a switch from collection to buying fuel; (ii) urban market utilization; (iii) reducing collected fuel quantity; (iv) reducing distance to fuel collection sites; (v) and reductions of meal preparation time were found as the key drivers/enablers of cleaner energy adoption across the evidence base. Perceptions and recognition of the time saving benefits of cleaner fuel adoption across studies was reported to be understood for: (i) fuel efficiency; (ii) fuel collection time; (iii) buying fuelwood; and (iv) better household economics. Relatively few studies report on what the time saved was used for; however, those that do investigate timesaving use found that additional time was used for: (i) additional income generation; (ii) professional development; (iii) more cooking (iv) other domestic activities (e.g. learning to sew); (v) eating out; and (vi) leisure activities. While many studies speculate that time is taken away from education, none state that saved time was used for education, beyond employment opportunities or overarching claims of professional development.",
+    "PublicationReference": "",
+    "PublicationUrl": "",
+    "Logos": [
+          { "File": "OXSREV", 
+            "Name": "OXSREV", 
+            "ExternalUrl": "https://www.oxsrev.org" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Rural/Urban/Peri-Urban",
+    "ClusterDistance": 500, 
+    "MapCentre": [0, 50],
+    "MapZoomLevel": 1,
+    "MaxPieSize": 35,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [{
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string",
+            "Description": "Country of each study"
+        },
+        {
+            "Column": "Year",
+            "Name": "Year of Publication",
+            "DataType": "float",
+            "Unit": "",
+            "Description": "Year of publication"
+        },
+        {
+           "Column": "Study Date",
+           "Name": "Study Date",
+           "DataType": "float",
+           "Unit": "",
+           "Description": "Year of the study start"
+        },
+        {
+            "Column": "Study Duration (Years)",
+            "Name": "Study Duration",
+            "DataType": "float",
+            "Unit": "Years",
+            "Description": "Length of study in years"
+        },
+        {
+            "Column": "Years Since Intervention (Sustainability Measure)",
+            "Name": "Years Since Intervention",
+            "DataType": "float",
+            "Unit": "Years",
+            "Description": ""
+        },
+        {
+            "Column": "Rural/Urban/Peri-Urban",
+            "Name": "Setting of study",
+            "DataType": "string",
+            "Description": "Setting of study"
+        },
+        {
+            "Column": "Baseline Technology (Transition From)",
+            "Name": "Baseline Technology (Transition From)",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Target Technology (Transition To)",
+            "Name": "Target Technology (Transition To)",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Are Missing Data Accounted For?",
+            "Name": "Missing Data Accountability",
+            "DataType": "string",
+            "Description": "Are the missing data (if any) accouted for?"
+         }
+    ],
+    "DataPalettes": [{
+        "Column": "Program Focus",
+        "Palette": [{
+                "Name": "Rural",
+                "Hex": "331832"
+            },
+            {
+                "Name": "Unspecified",
+                "Hex": "D81E5B"
+            },
+            {
+                "Name": "Urban",
+                "Hex": "F0544F"
+            },            
+            {
+                "Name": "Urban and Peri-Urban",
+                "Hex": "C6D8D3"
+            },
+            {
+                "Name": "Urban and Rural",
+                "Hex": "FDF0D5"
+            },
+            {
+                "Name": "Urban Peri-Urban and Rural",
+                "Hex": "26547C"
+            }
+        ]
+    }]
+}
