@@ -10,7 +10,7 @@
         "ExternalUrl": "https://www.oxsrev.org" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Effect",
+    "DisplayUnit": "Effect of Gender",
     "ClusterDistance": 500, 
     "MapCentre": [0, 0],
     "MapZoomLevel": 1,
@@ -89,7 +89,7 @@
         }
     ],
     "DataPalettes": [{
-        "Column": "Effect of Gender",
+        "Column": "Effect",
         "Palette": [{
                 "Name": "Positive",
                 "Hex": "4e79a7"
