@@ -76,7 +76,7 @@
         "Description": ""
         },
         {
-        "Column": "Effect",
+        "Column": "Effect of Gender",
         "Name": "What Was the Effect of Gender?",
         "DataType": "string",
         "Description": ""
@@ -89,7 +89,7 @@
         }
     ],
     "DataPalettes": [{
-        "Column": "Effect",
+        "Column": "Effect of Gender",
         "Palette": [{
                 "Name": "Positive",
                 "Hex": "4e79a7"
