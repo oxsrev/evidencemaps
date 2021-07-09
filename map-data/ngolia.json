@@ -1,0 +1,111 @@
+{
+    "Name": "What is the evidence base linking gender with access to forests and use of forest resources for food security in low- and middle-income countries? A systematic evidence map",
+    "Description": "BACKGROUND: An important part of people’s livelihood is derived from natural resources, in nearly all parts of the world. Gender is considered one of the most important determinants of access and control over forests. It is thought that women and men within households and communities, may manage and use forests and have different opportunities, and different roles and  responsibilities in relation to forest use. These access and use differences     , particularly      for food security,      can therefore lead to different outcomes for      women and men. It is probable that when     women have equal access to forests, there      better food security outcomes can be achieved for individuals and households that are dependent on forests for their livelihoods. METHOD: A systematic evidence map is presented of the evidence base linking gender with access to forests and use of forest resources  for food security. The method followed guidance for systematic maps published by the Collaboration for Environmental Evidence1. Ten bibliographic databases and aggregators and 22 websites of international development and conservation organisations were searched using keywords suggested by stakeholders in an iterative process. Other references were found by searching in the refernce lists of relevant articles and reviews and by emailing authors and organisations to send potentially relevant publications. Articles were included in the systematic map which referred to women or gender, forests or food security in a low- and middle- income countries. RESULTS: A total of 19500 articles were retrieved by the search strategy from bibliographic databases, and 1281 from other sources. After iterative screening using the inclusion criteria,  77 studies were included in the systematic map. Of these, 28 were quantitative, 3 were qualitative, and 46 were mixed methods. African countries accounted for 41 studies, Asia had 22 studies, and Latin America was least represented with 12 studies. An additional 2 studies were global in extent. All studies showed strong gender specialisation, with commercial access and utilisation of forests and forest products being dominated by men whereas access for subsistence and household consumption is almost exclusively the task of women, although there were a few exceptions. All studies faced the methodological challenges of measuring food security because of its various aspects, namely, availability, access, utilization, and vulnerability. Most indicators of food security revolved around the concept of access to food, which is measured by total consumption, expenditure, or income. CONCLUSIONS: Despite the large number of studies reviewed, methodological heterogeneity, including a dominance of case studies as the study design, and limited geographical representation in study locations make it difficult to generalize about the overall importance of gender and its effect on access to and use of forests for food security in developing countries. In all studies across Africa, Asia and Latin America, there is a strong gender specialization, with commercial access and utilisation of forests and forest products being dominated by men whereas access for subsistence and household consumption is almost exclusively the task of women, although there are a few exceptions. The critical gaps in the evidence base include geographical representation in primary research and a greater breadth of study designs to assess gender implications of access to forest resources globally.",
+    "PublicationReference": "",
+    "PublicationUrl": "",
+    "Logos": [
+        {
+        "File": "OXSREV", 
+        "Name": "OXSREV", 
+        "ExternalUrl": "https://www.oxsrev.org" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Effect",
+    "ClusterDistance": 500, 
+    "MapCentre": [0, 0],
+    "MapZoomLevel": 1,
+    "MaxPieSize": 35,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [
+        {
+        "Column": "country of data collection",
+        "Name": "Country",
+        "DataType": "string",
+        "Description": ""
+         },
+        {
+        "Column": "rural-urban",
+        "Name": "Rural-Urban",
+        "DataType": "string",
+        "Description": ""
+           },
+        {
+        "Column": "distance to forest",
+        "Name": "Distance to Forest",
+        "DataType": "string",
+        "Description": ""
+           },     
+        {
+        "Column": "market access",
+        "Name": "Market Access",
+        "DataType": "string",
+        "Description": ""
+            },
+        {
+        "Column": "forest tenure",
+        "Name": "Forest Tenure",
+        "DataType": "string",
+        "Description": ""
+        },  
+        {
+        "Column": "method",
+        "Name": "Method",
+        "DataType": "string",
+        "Description": ""
+        },
+        {
+        "Column": "is food security assessed",
+        "Name": "Is Food Security Assessed?",
+        "DataType": "string",
+        "Description": ""
+        },
+        {
+        "Column": "is nutrition security assessed",
+        "Name": "Is Nutrition Security Assessed?",
+        "DataType": "string",
+        "Description": ""
+        },
+        {
+        "Column": "is income assessed",
+        "Name": "Is Income Assessed?",
+        "DataType": "string",
+        "Description": ""
+        },
+        {
+        "Column": "Effect",
+        "Name": "What Was the Effect of Gender?",
+        "DataType": "string",
+        "Description": ""
+        },                                 
+        {
+        "Column": "Date",
+        "Name": "Date",
+        "DataType": "float",
+        "Description": "If the resource is research, what year was it published. If it is an event, when did/will it take place. If it is a person or organisation and a IUFRO member, what year did they join"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Effect",
+        "Palette": [{
+                "Name": "Positive",
+                "Hex": "4e79a7"
+            },
+            {
+                "Name": "Neutral",
+                "Hex": "e15759"
+            },
+            {
+                "Name": "Neutral/Mixed",
+                "Hex": "59a14f"
+            },            
+            {
+                "Name": "Negative",
+                "Hex": "edc949"
+            }
+        ]
+    }]
+}
