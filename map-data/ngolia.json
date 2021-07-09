@@ -90,20 +90,17 @@
     ],
     "DataPalettes": [{
         "Column": "Effect of Gender",
-        "Palette": [{
-                "Name": "Positive",
-                "Hex": "4e79a7"
-            },
+        "Palette": [
             {
-                "Name": "Neutral",
+                "Name": "Negative",
                 "Hex": "e15759"
             },
             {
-                "Name": "Neutral/Mixed",
+                "Name": "Positive",
                 "Hex": "59a14f"
             },            
             {
-                "Name": "Negative",
+                "Name": "Neutral/Mixed",
                 "Hex": "edc949"
             }
         ]
