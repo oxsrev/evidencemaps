@@ -72,7 +72,7 @@
             "Description": ""
         },
         {
-            "Column": "Are Missing Data Accounted For?",
+            "Column": "Are Missing Data Accounted for?",
             "Name": "Missing Data Accountability",
             "DataType": "string",
             "Description": "Are the missing data (if any) accouted for?"
