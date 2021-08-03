@@ -90,7 +90,7 @@
             },
             {
                 "Name": "Urban",
-                "Hex": "F0544F"
+                "Hex": "5dbae8"
             },            
             {
                 "Name": "Urban and Peri-Urban",
@@ -102,7 +102,7 @@
             },
             {
                 "Name": "Urban Peri-Urban and Rural",
-                "Hex": "5dbae8"
+                "Hex": "F0544F"
             }
         ]
     }]
