@@ -82,7 +82,7 @@
         "Column": "Rural/Urban/Peri-Urban",
         "Palette": [{
                 "Name": "Rural",
-                "Hex": "1e5631"
+                "Hex": "FFDB58"
             },
             {
                 "Name": "Unspecified",
