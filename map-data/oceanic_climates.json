@@ -14,8 +14,8 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Intervention",
     "ClusterDistance": 500, 
-    "MapCentre": [0, 50],
-    "MapZoomLevel": 1,
+    "MapCentre": [3, 50],
+    "MapZoomLevel": 5,
     "MaxPieSize": 35,
     "BaseLayers": [{
         "File": "world50",
