@@ -48,8 +48,8 @@
             "Description": ""
         },
         {
-            "Column": "Country",
-            "Name": "Country",
+            "Column": "Study Country",
+            "Name": "Study Country",
             "DataType": "string"
         },
         {
