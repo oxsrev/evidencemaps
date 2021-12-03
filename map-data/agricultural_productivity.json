@@ -60,7 +60,7 @@
         }
     ],
     "DataPalettes": [{
-        "Column": "Economics",
+        "Column": "Outcomes measured",
         "Palette": [{
                 "Name": "Herbage dry matter (HDM)",
                 "Hex": "4e79a7"
