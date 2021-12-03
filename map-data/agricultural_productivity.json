@@ -49,7 +49,7 @@
         },
         {
             "Column": "Country",
-            "Name": "",
+            "Name": "Country",
             "DataType": "string"
         },
         {
