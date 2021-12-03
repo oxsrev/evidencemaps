@@ -41,8 +41,8 @@
             "Description": ""
         },
         {
-            "Column": "Year of Publication",
-            "Name": "Year of publication",
+            "Column": "Year of publication",
+            "Name": "Year of Publication",
             "DataType": "float",
             "Unit": "",
             "Description": ""
