@@ -111,11 +111,11 @@
         "Column": "Intervention (Study) Housing Type (HT1)",
         "Palette": [{
                 "Name": "Cubicle",
-                "Hex": "4e79a7"
+                "Hex": "006AA7"
             },
             {
                 "Name": "Open Lounging",
-                "Hex": "59a14f"
+                "Hex": "FECC02"
             }, 
             {
                 "Name": "Mixed",
