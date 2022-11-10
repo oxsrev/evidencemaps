@@ -88,13 +88,6 @@
             "Description": ""
         },
         {
-            "Column": "Number of Cattle",
-            "Name": "Number of Cattle",
-            "DataType": "float",
-            "Unit": "",
-            "Description": "Averaged where range given"
-        },
-        {
             "Column": "Breed(s) of Dairy Cattle",
             "Name": "Breed(s) of Dairy Cattle",
             "DataType": "string",
@@ -104,6 +97,13 @@
             "Column": "HWB Measures",
             "Name": "HWB Measures",
             "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Risk of Bias Score",
+            "Name": "Risk of Bias Score",
+            "DataType": "float",
+            "Unit": "",
             "Description": ""
         }
     ],
