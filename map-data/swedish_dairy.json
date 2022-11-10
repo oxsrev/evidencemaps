@@ -21,13 +21,7 @@
     }],
     "Fields": [{
             "Column": "Intervention (Study) Housing Type (HT1)",
-            "Name": "Intervention (Study) Housing Type (HT1)",
-            "DataType": "string",
-            "Description": ""
-        },
-        {
-            "Column": "HT1 - Outdoor Access",
-            "Name": "HT1 - Outdoor Access",
+            "Name": "Intervention Housing Type (HT1)",
             "DataType": "string",
             "Description": ""
         },
@@ -38,8 +32,13 @@
             "Description": ""
         },
         {
-            "Column": "HT2 - Grazing Period",
-            "Name": "HT2 - Grazing Period",
+            "Column": "Country",
+            "Name": "Country",
+            "DataType": "string"
+        },
+        {
+            "Column": "HT1 - Outdoor Access",
+            "Name": "HT1 - Outdoor Access",
             "DataType": "string",
             "Description": ""
         },
@@ -50,16 +49,17 @@
             "Description": ""
         },
         {
+            "Column": "HT2 - Grazing Period",
+            "Name": "HT2 - Grazing Period",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
             "Column": "Year of Publication",
             "Name": "Year of Publication",
             "DataType": "float",
             "Unit": "",
             "Description": ""
-        },
-        {
-            "Column": "Country",
-            "Name": "Country",
-            "DataType": "string"
         },
         {
             "Column": "Scale of Study",
