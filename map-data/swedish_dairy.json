@@ -11,8 +11,8 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Intervention (Study) Housing Type (HT1)",
     "ClusterDistance": 30, 
-    "MapCentre": [0, 25],
-    "MapZoomLevel": 1,
+    "MapCentre": [0, 0],
+    "MapZoomLevel": 3,
     "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
