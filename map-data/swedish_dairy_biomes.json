@@ -13,7 +13,7 @@
     "ClusterDistance": 30, 
     "MapCentre": [0, 25],
     "MapZoomLevel": 1,
-    "MaxPieSize": 25,
+    "MaxPieSize": 5,
     "BaseLayers": [{
         "File": "wwf-ecoregions",
         "Name": "Land",
