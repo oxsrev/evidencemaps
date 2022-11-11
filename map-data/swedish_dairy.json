@@ -11,7 +11,7 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Intervention (Study) Housing Type (HT1)",
     "ClusterDistance": 30, 
-    "MapCentre": [-45, 50],
+    "MapCentre": [-45, 90],
     "MapZoomLevel": 2,
     "MaxPieSize": 100,
     "BaseLayers": [{
