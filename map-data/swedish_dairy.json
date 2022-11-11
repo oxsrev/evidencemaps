@@ -10,7 +10,7 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Intervention (Study) Housing Type (HT1)",
-    "ClusterDistance": 500, 
+    "ClusterDistance": 50, 
     "MapCentre": [0, 25],
     "MapZoomLevel": 1,
     "MaxPieSize": 35,
