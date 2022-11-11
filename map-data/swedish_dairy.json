@@ -101,7 +101,7 @@
         },
         {
             "Column": "Risk of Bias Score",
-            "Name": "Risk of Bias Score",
+            "Name": "Risk of Bias Score (where 0 is highest risk and 9 is lowest risk)",
             "DataType": "float",
             "Unit": "",
             "Description": ""
