@@ -68,7 +68,7 @@
         },
         {
             "Column": "Number of Study Sites",
-            "Name": "Number of Study Sites",
+            "Name": "Number of Farms in Study",
             "DataType": "float",
             "Unit": "",
             "Description": ""
@@ -76,13 +76,6 @@
         {
             "Column": "Study Duration (Years)",
             "Name": "Study Duration (Years)",
-            "DataType": "float",
-            "Unit": "",
-            "Description": ""
-        },
-        {
-            "Column": "Number of Farms",
-            "Name": "Number of Farms",
             "DataType": "float",
             "Unit": "",
             "Description": ""
