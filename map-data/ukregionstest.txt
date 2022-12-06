@@ -1,0 +1,48 @@
+Total Pellet Plants	Plant Type	State	LatDD	LonDD
+4	Ag/Peanut Hulls	AL	32.7794	-86.8287
+4	Hardwood/Softwood	AL	32.7794	-86.8287
+4	Hardwood/Softwood	AL	32.7794	-86.8287
+4	Softwood	AL	32.7794	-86.8287
+3	Hardwood	AR	34.8938	-92.4426
+3	Hardwood/Softwood	AR	34.8938	-92.4426
+3	Softwood	AR	34.8938	-92.4426
+2	Hardwood	FL	30.176448	-82.688239
+2	Softwood	FL	30.176448	-82.688239
+8	Ag/Peanut Hulls	GA	32.6415	-83.4426
+8	Hardwood/Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+8	Softwood	GA	32.6415	-83.4426
+2	Hardwood	KY	37.5347	-85.3021
+2	Hardwood	KY	37.5347	-85.3021
+3	Softwood	LA	31.0689	-91.9968
+3	Softwood	LA	31.0689	-91.9968
+3	Softwood	LA	31.0689	-91.9968
+2	Hardwood	MS	32.7364	-89.6678
+2	Hardwood/Softwood	MS	32.7364	-89.6678
+6	Hardwood and Softwood	NC	35.5557	-79.3877
+6	Hardwood/Softwood	NC	35.5557	-79.3877
+6	Hardwood/Softwood	NC	35.5557	-79.3877
+6	Hardwood/Softwood	NC	35.5557	-79.3877
+6	Hardwood/Softwood	NC	35.5557	-79.3877
+6	Softwood	NC	35.5557	-79.3877
+2	Hardwood/Softwood	SC	33.9169	-80.8964
+2	Softwood	SC	33.9169	-80.8964
+3	Hardwood	TN	35.858	-86.3505
+3	Hardwood	TN	35.858	-86.3505
+3	Hardwood	TN	35.858	-86.3505
+9	Hardwood	VA	37.5215	-78.8537
+9	Hardwood	VA	37.5215	-78.8537
+9	Hardwood/Softwood	VA	37.5215	-78.8537
+9	Hardwood/Softwood	VA	37.5215	-78.8537
+9	Hardwood/Softwood	VA	37.5215	-78.8537
+9	Hardwood/Softwood	VA	37.5215	-78.8537
+9	Hardwood/Softwood	VA	37.5215	-78.8537
+9	Softwood	VA	37.5215	-78.8537
+9	Softwood	VA	37.5215	-78.8537
+3	Hardwood	WV	38.6409	-80.6227
+3	Hardwood	WV	38.6409	-80.6227
+3	Hardwood	WV	38.6409	-80.6227

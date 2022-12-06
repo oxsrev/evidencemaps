@@ -1,0 +1,61 @@
+{
+    "Name": "The wood pellet producing plants in Southeastern USA",
+    "Description": "list obtained from http://biomassmagazine.com/plants/listplants/pellet/US/Operational, last updated 14th January 2020",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Plant Type",
+    "ClusterDistance": 50,
+    "MapCentre": [0, 0],
+    "PublicationReference": "Petrokofsky, Leo, Harvey, Francis, Petrokofsky, Gillian, & Harvey, William. (2020). Wood pellet plants in Southeastern USA (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4046710",
+    "PublicationUrl": "http://doi.org/10.5281/zenodo.4046710",
+    "MapZoomLevel": 1,
+    "MaxPieSize": 20,
+    "BaseLayers": [{
+        "File": "ukregions",
+        "Name": "ukregions",
+        "Description": "UK Regions"        
+    }],
+    "Fields": [
+        {
+            "Column": "Plant Type",
+            "Name": "Plant Type",
+            "DataType": "string",
+            "Description": "What is the feedstock of the plant?"
+        },
+        {
+             "Column": "State",
+            "Name": "State",
+            "DataType": "string",
+            "Description": "What state is the plant in?"
+        }                     
+          ],
+    "Logos": [{
+        "File": "OXSREV",
+        "Name": "Oxford Systematic Reviews LLP",
+        "ExternalUrl": "https://www.oxsrev.org"
+    }],
+    "DataPalettes": [{
+        "Column": "Plant Type",
+        "Palette": [{
+                "Name": "Ag/Peanut Hulls",
+                "Hex": "4e79a7"
+            },
+            {
+                "Name": "Hardwood",
+                "Hex": "59a14f"
+            },
+            {
+                "Name": "Hardwood and Softwood",
+                "Hex": "9c755f"
+            },            
+            {
+                "Name": "Hardwood/Softwood",
+                "Hex": "f28e2b"
+            },
+            {
+                "Name": "Softwood",
+                "Hex": "edc948"
+            }             
+        ]
+    }]
+}
