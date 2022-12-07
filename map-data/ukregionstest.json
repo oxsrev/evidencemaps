@@ -11,8 +11,8 @@
     "MapZoomLevel": 1,
     "MaxPieSize": 20,
     "BaseLayers": [{
-        "File": "ukregions",
-        "Name": "ukregions",
+        "File": "EER",
+        "Name": "EER",
         "Description": "UK Regions"        
     }],
     "Fields": [
