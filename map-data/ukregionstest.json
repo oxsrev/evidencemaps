@@ -11,9 +11,9 @@
     "MapZoomLevel": 1,
     "MaxPieSize": 20,
     "BaseLayers": [{
-        "File": "NUTS_Topo",
-        "Name": "NUTS_Topo",
-        "Description": "UK Regions"        
+        "File": "STATES",
+        "Name": "US States",
+        "Description": "Test 16:13"        
     }],
     "Fields": [
         {
