@@ -1,61 +1,135 @@
 {
-    "Name": "The wood pellet producing plants in Southeastern USA",
-    "Description": "list obtained from http://biomassmagazine.com/plants/listplants/pellet/US/Operational, last updated 14th January 2020",
+    "Name": "British Woodland Survey - 2020",
+    "Description": "The British Woodlands Survey 2020 (BWS2020) was launched in April 2020 and remains open until the 19th July. In our new survey, we want to understand any changes in awareness, action and aspiration among previous respondents, and hopefully reach even more landowners, land managers, agents, and businesses who have an interest in our trees and forests. BWS2020 comes five years after the groundbreaking British Woodlands Survey of 2015, which explored awareness, action and aspiration among Britain's forestry community in relation to environmental change. Recent British Woodland Surveys have reached those responsible for managing one-fifth of all UK woodland area, and the results have influenced policy and practice at the highest levels. BWS2020 is funded by the Forestry Commission. The survey is supported by the Forestry and Climate Change Working Group whose members include representatives from Confor, Country Land & Business Association, Defra, Forestry Commission, Forest Research, Future Trees Trust, Institute of Chartered Foresters, Natural England, Pryor and Rickett, Royal Forestry Society, Sylva Foundation, Tilhill, Tree Council, Woodland Heritage and Woodland Trust.",
+    "PublicationReference": "To read more go to BWS website",
+    "PublicationUrl": "https://sylva.org.uk/bws2020",
+    "Logos": [
+        { "File": "sylva", 
+          "Name": "Sylva Foundation", 
+          "ExternalUrl": "" },
+        { "File": "FC", 
+            "Name": "Forestry Commission", 
+            "ExternalUrl": "" },
+        { "File": "FCCWG", 
+            "Name": "Forestry and Climate Change Working Group", 
+             "ExternalUrl": "" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Plant Type",
-    "ClusterDistance": 50,
-    "MapCentre": [0, 0],
-    "PublicationReference": "Petrokofsky, Leo, Harvey, Francis, Petrokofsky, Gillian, & Harvey, William. (2020). Wood pellet plants in Southeastern USA (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4046710",
-    "PublicationUrl": "http://doi.org/10.5281/zenodo.4046710",
-    "MapZoomLevel": 1,
-    "MaxPieSize": 20,
+    "DisplayUnit": "Which of the following most accurately reflects your position?",
+    "ClusterDistance": 40, 
+    "MapCentre": [-5, 55],
+    "MapZoomLevel": 11,
+    "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "STATES",
-        "Name": "US States",
-        "Description": "Test 16:13"        
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
     }],
-    "Fields": [
-        {
-            "Column": "Plant Type",
-            "Name": "Plant Type",
+    "Fields": [{
+            "Column": "Which of the following most accurately reflects your position?",
+            "Name": "Which of the following most accurately reflects your position?",
             "DataType": "string",
-            "Description": "What is the feedstock of the plant?"
+            "Description": "What was the position of the person taking the survey"
+        },
+        {"Column": "Region",
+            "Name": "Region",
+            "DataType": "string",
+            "Description": ""
+        },
+        {"Column": "What proportion of your woods are Ancient woodland (Semi-natural)?",
+            "Name": "What proportion of your woods are Ancient woodland (Semi-natural)?",
+            "DataType": "float",
+            "Description": ""
+        },
+        {"Column": "What proportion of your woods are Ancient woodland (Plantations (PAWS))?",
+            "Name": "What proportion of your woods are Ancient woodland (Plantations (PAWS))?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Ancient woodland (Restored PAWS)?",
+            "Name": "What proportion of your woods are Ancient woodland (Restored PAWS)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Secondary woods (Semi-natural)?",
+            "Name": "What proportion of your woods are Secondary woods (Semi-natural)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woods are Secondary woods (Plantations)?",
+            "Name": "What proportion of your woods are Secondary woods (Plantations)?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is mainly broadleaved stands?",
+            "Name": "What proportion of your woodland is mainly broadleaved stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is mainly conifer stands?",
+            "Name": "What proportion of your woodland is mainly conifer stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of your woodland is a mixture of both broadlead and conifer stands?",
+            "Name": "What proportion of your woodland is a mixture of both broadlead and conifer stands?",
+            "DataType": "float",
+            "Description": ""
+        }, 
+        {"Column": "What proportion of stands in your woodland are even-aged?",
+            "Name": "What proportion of stands in your woodland are even-aged?",
+            "DataType": "float",
+            "Description": ""
+        },   
+        {"Column": "What proportion of stands in your woodland are uneven-aged?",
+            "Name": "What proportion of stands in your woodland are uneven-aged?",
+            "DataType": "float",
+            "Description": ""
+        },      
+        {"Column": "What best describes your business or professional sector?",
+            "Name": "What best describes your business or professional sector?",
+            "DataType": "string",
+            "Description": "What was the business or professional sector of the person answering the survey?"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Which of the following most accurately reflects your position?",
+        "Palette": [{
+            "Name": "Professional: I have a professional or personal interest in forests and forestry in the UK",
+            "Hex": "59a14f"
         },
         {
-             "Column": "State",
-            "Name": "State",
-            "DataType": "string",
-            "Description": "What state is the plant in?"
-        }                     
-          ],
-    "Logos": [{
-        "File": "OXSREV",
-        "Name": "Oxford Systematic Reviews LLP",
-        "ExternalUrl": "https://www.oxsrev.org"
-    }],
-    "DataPalettes": [{
-        "Column": "Plant Type",
-        "Palette": [{
-                "Name": "Ag/Peanut Hulls",
-                "Hex": "4e79a7"
-            },
-            {
-                "Name": "Hardwood",
-                "Hex": "59a14f"
-            },
-            {
-                "Name": "Hardwood and Softwood",
-                "Hex": "9c755f"
-            },            
-            {
-                "Name": "Hardwood/Softwood",
-                "Hex": "f28e2b"
-            },
-            {
-                "Name": "Softwood",
-                "Hex": "edc948"
-            }             
+            "Name": "Woodland owner: I own land containing woodland (a single woodland property)",
+            "Hex": "9c755f"
+        },            
+        {
+            "Name": "Professional: I manage my own woodland (owned or leased) and have a professional interest in UK forestry",
+            "Hex": "edc948"
+        },
+        {
+            "Name": "Agent: I manage my own woodland (owned or leased), and I also manage woodland on behalf of other woodland owners",
+            "Hex": "ffffff"
+        },
+        {
+            "Name": "Woodland owner: I own land containing woodland (multiple woodland properties)",
+            "Hex": "e15759"
+        },
+        {
+            "Name": "Business: I manage my own woodland (owned or leased) and have a forestry business (tree nursery or wood-processing)",
+            "Hex": "b07aa1"
+        },
+        {
+            "Name": "Business: Wood-processing sector (e.g. haulier, sawmill, wood user)",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Business: Tree nursery",
+            "Hex": "ff9da7"
+        },
+        {
+            "Name": "Tenant: I lease land containing woodland (a single woodland property or multiple woodland properties)",
+            "Hex": "f28e2b"
+        }
         ]
     }]
 }
