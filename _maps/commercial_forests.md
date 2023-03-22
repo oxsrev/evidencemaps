@@ -1,5 +1,5 @@
 ---
-name: "A map to test a UK Regions layer"
-mapname: ukregionstest
+name: "Systematic evidence evaluation of literature on evidence of biodiversity in UK commercial forests"
+mapname: commercial_forests
 layout: map
 ---

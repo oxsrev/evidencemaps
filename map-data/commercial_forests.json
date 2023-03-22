@@ -1,0 +1,195 @@
+{
+    "Name": "Systematic evidence evaluation of literature on evidence of biodiversity in UK commercial forests",
+    "Description": "",
+    "PublicationReference": "",
+    "PublicationUrl": "",
+    "Logos": [
+        { "File": "OXSREV",
+          "Name": "Oxford Systematic Reviews",
+          "ExternalUrl": "http://www.oxsrev.org/" },
+        { "File": "FC", 
+            "Name": "Forestry Commission", 
+            "ExternalUrl": "" }],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Which of the following most accurately reflects your position?",
+    "ClusterDistance": 40, 
+    "MapCentre": [-5, 55],
+    "MapZoomLevel": 11,
+    "MaxPieSize": 50,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": "Country boundaries at 50km resolution."
+    }],
+    "Fields": [{
+            "Column": "Aggregated comparator data only",
+            "Name": "Were data aggregated?",
+            "DataType": "string",
+            "Description": "Were the data (for any of intervention/comparator/outcome) aggregated?"
+        },
+        {"Column": "Scale of Study",
+            "Name": "Scale of Study",
+            "DataType": "string",
+            "Description": "What was the scale of the study"
+        },
+        {"Column": "Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "Description": "The year in which the article was published"
+        },
+        {"Column": "Year study started",
+            "Name": "Year study started",
+            "DataType": "float",
+            "Description": "Year the study started"
+        }, 
+        {"Column": "Study Duration (in months)",
+            "Name": "Study Duration (in months)",
+            "DataType": "float",
+            "Description": "How long (in months) was the study"
+        }, 
+        {"Column": "UK Nation",
+            "Name": "UK Nation",
+            "DataType": "string",
+            "Description": "Which UK nation was the study in?"
+        }, 
+        {"Column": "Type of study comparisons made",
+            "Name": "Type of study comparisons made",
+            "DataType": "string",
+            "Description": "What type of comparisons did the study make?"
+        }, 
+        {"Column": "Commercial Trees",
+            "Name": "Commercial Trees",
+            "DataType": "string",
+            "Description": "What commercial tree species were studied"
+        }, 
+        {"Column": "Stand developmental stages (only if clear cut system system compared)",
+            "Name": "Stand developmental stages",
+            "DataType": "string",
+            "Description": "What stage of development were the trees that were studied"
+        }, 
+        {"Column": "Comparator Site (if a chronosequence, select 'Not applicable')",
+            "Name": "Comparator Site",
+            "DataType": "string",
+            "Description": "What type of landuse was the comparator of the study"
+        }, 
+        {"Column": "Taxonomic Diversity- Richness (S)",
+            "Name": "Taxonomic Diversity - Richness",
+            "DataType": "string",
+            "Description": "Did the study use Richness as a biodiversity measure?"
+        },   
+        {"Column": "Taxonomic Diversity- Abundance (J')",
+            "Name": "Taxonomic Diversity - Abundance",
+            "DataType": "string",
+            "Description": "Did the study use Abundance as a biodiversity measure?"
+        },
+        {"Column": "Taxonomic Diversity- Spp Diversity (Index)",
+        "Name": "Taxonomic Diversity - Spp Diversity",
+        "DataType": "string",
+        "Description": "Did the study use Species Richness as a biodiversity measure?"
+         },   
+         {"Column": "Community -Composition ",
+        "Name": "Community - Composition ",
+        "DataType": "string",
+        "Description": "Did the study measure Community Composition?"
+         },       
+        {"Column": "Functional Diversity (inc diversity of traits)",
+            "Name": "Functional Diversity",
+            "DataType": "string",
+            "Description": "Did the study measure Functional Diversity (including diversity of traits)?"
+        },   
+        {"Column": "Levels of Redundancy (taxonomic and/or functional)",
+       "Name": "Levels of Redundancy",
+       "DataType": "string",
+       "Description": "Did the study measure Levels of Redundancy (taxonomic and/or functional)?"
+        },       
+       {"Column": "Forest strata of study",
+           "Name": "Forest Strata of Study",
+           "DataType": "string",
+           "Description": "What strata of the forest was studied?"
+       },   
+       {"Column": "Taxonomic groups",
+      "Name": "Taxonomic groups",
+      "DataType": "string",
+      "Description": "Which taxonomic groups were studied?"
+       },       
+      {"Column": "Are missing data fully accounted for?",
+          "Name": "Were Missing Data Fully Accounted For?",
+          "DataType": "string",
+          "Description": "If there were any missing data in the study were they accounted for?"
+      },   
+      {"Column": "Are all raw data available?",
+     "Name": "Were all raw data available?",
+     "DataType": "string",
+     "Description": "Did the author make all of their raw data available?"
+      }
+    ],
+    "DataPalettes": [{
+        "Column": "Commercial Trees",
+        "Palette": [{
+            "Name": "Sitka spruce",
+            "Hex": "59a14f"
+        },
+        {
+            "Name": "Scots pine",
+            "Hex": "9c755f"
+        },            
+        {
+            "Name": "Larch",
+            "Hex": "edc948"
+        },
+        {
+            "Name": "Conifer (unspecified)",
+            "Hex": "ffffff"
+        },
+        {
+            "Name": "Norway spruce",
+            "Hex": "e15759"
+        },
+        {
+            "Name": "Lodgepole pine",
+            "Hex": "b07aa1"
+        },
+        {
+            "Name": "Corsican pine",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Oak",
+            "Hex": "ff9da7"
+        },
+        {
+            "Name": "Douglas fir",
+            "Hex": "f28e2b"
+        },
+        {
+            "Name": "Beech",
+            "Hex": "b07aa1"
+        },
+        {
+            "Name": "Spruce (unspecified)",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Ash",
+            "Hex": "ff9da7"
+        },
+        {
+            "Name": "Sycamore",
+            "Hex": "f28e2b"
+        },
+        {
+            "Name": "Pine (unspecified)",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Broadleaf (unspecified)",
+            "Hex": "ff9da7"
+        },
+        {
+            "Name": "Mixture",
+            "Hex": "f28e2b"
+        }
+        ]
+    }]
+}
