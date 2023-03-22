@@ -12,7 +12,7 @@
             "ExternalUrl": "" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Which of the following most accurately reflects your position?",
+    "DisplayUnit": "Commercial Trees",
     "ClusterDistance": 40, 
     "MapCentre": [-5, 55],
     "MapZoomLevel": 11,
