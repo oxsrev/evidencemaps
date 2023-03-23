@@ -22,8 +22,13 @@
         "Name": "Land",
         "Description": "Country boundaries at 50km resolution."
     }],
-    "Fields": [{
-            "Column": "Aggregated comparator data only",
+    "Fields": [
+        {"Column": "Commercial Trees",
+            "Name": "Commercial Trees",
+            "DataType": "string",
+            "Description": "What commercial tree species were studied"
+        },
+        {"Column": "Aggregated comparator data only",
             "Name": "Were data aggregated?",
             "DataType": "string",
             "Description": "Were the data (for any of intervention/comparator/outcome) aggregated?"
@@ -57,12 +62,7 @@
             "Name": "Type of study comparisons made",
             "DataType": "string",
             "Description": "What type of comparisons did the study make?"
-        }, 
-        {"Column": "Commercial Trees",
-            "Name": "Commercial Trees",
-            "DataType": "string",
-            "Description": "What commercial tree species were studied"
-        }, 
+        },  
         {"Column": "Stand developmental stages (only if clear cut system system compared)",
             "Name": "Stand developmental stages",
             "DataType": "string",
