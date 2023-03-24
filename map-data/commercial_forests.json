@@ -122,11 +122,11 @@
         },
         {
             "Name": "Scots pine",
-            "Hex": "590080"
+            "Hex": "ffd800"
         },            
         {
             "Name": "Larch",
-            "Hex": "ffd800"
+            "Hex": "0094fe"
         },
         {
             "Name": "Conifer (unspecified)",
@@ -138,23 +138,23 @@
         },
         {
             "Name": "Lodgepole pine",
-            "Hex": "b100fe"
-        },
-        {
-            "Name": "Corsican pine",
-            "Hex": "001280"
-        },
-        {
-            "Name": "Oak",
-            "Hex": "00fe21"
-        },
-        {
-            "Name": "Douglas fir",
             "Hex": "806b00"
         },
         {
+            "Name": "Corsican pine",
+            "Hex": "00fe21"
+        },
+        {
+            "Name": "Oak",
+            "Hex": "00497e"
+        },
+        {
+            "Name": "Douglas fir",
+            "Hex": "0026ff"
+        },
+        {
             "Name": "Beech",
-            "Hex": "007f0e"
+            "Hex": "001280"
         },
         {
             "Name": "Spruce (unspecified)",
@@ -162,15 +162,15 @@
         },
         {
             "Name": "Ash",
-            "Hex": "0094fe"
+            "Hex": "b100fe"
         },
         {
             "Name": "Sycamore",
-            "Hex": "00497e"
+            "Hex": "590080"
         },
         {
             "Name": "Pine (unspecified)",
-            "Hex": "0026ff"
+            "Hex": "007f0e"
         }
         ]
     }]
