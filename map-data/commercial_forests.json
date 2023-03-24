@@ -28,6 +28,11 @@
             "DataType": "string",
             "Description": "What commercial tree species were studied"
         },
+        {"Column": "Taxonomic groups",
+      "Name": "Taxonomic groups",
+      "DataType": "string",
+      "Description": "Which taxonomic groups were studied?"
+       },
         {"Column": "Aggregated comparator data only",
             "Name": "Were data aggregated?",
             "DataType": "string",
@@ -92,27 +97,12 @@
         "Name": "Community - Composition ",
         "DataType": "string",
         "Description": "Did the study measure Community Composition?"
-         },       
-        {"Column": "Functional Diversity (inc diversity of traits)",
-            "Name": "Functional Diversity",
-            "DataType": "string",
-            "Description": "Did the study measure Functional Diversity (including diversity of traits)?"
-        },   
-        {"Column": "Levels of Redundancy (taxonomic and/or functional)",
-       "Name": "Levels of Redundancy",
-       "DataType": "string",
-       "Description": "Did the study measure Levels of Redundancy (taxonomic and/or functional)?"
-        },       
+         },     
        {"Column": "Forest strata of study",
            "Name": "Forest Strata of Study",
            "DataType": "string",
            "Description": "What strata of the forest was studied?"
-       },   
-       {"Column": "Taxonomic groups",
-      "Name": "Taxonomic groups",
-      "DataType": "string",
-      "Description": "Which taxonomic groups were studied?"
-       },       
+       },        
       {"Column": "Are missing data fully accounted for?",
           "Name": "Were Missing Data Fully Accounted For?",
           "DataType": "string",
@@ -128,15 +118,15 @@
         "Column": "Commercial Trees",
         "Palette": [{
             "Name": "Sitka spruce",
-            "Hex": "59a14f"
+            "Hex": "fe0000"
         },
         {
             "Name": "Scots pine",
-            "Hex": "9c755f"
+            "Hex": "590080"
         },            
         {
             "Name": "Larch",
-            "Hex": "edc948"
+            "Hex": "ffd800"
         },
         {
             "Name": "Conifer (unspecified)",
@@ -144,51 +134,43 @@
         },
         {
             "Name": "Norway spruce",
-            "Hex": "e15759"
+            "Hex": "#800001"
         },
         {
             "Name": "Lodgepole pine",
-            "Hex": "b07aa1"
+            "Hex": "b100fe"
         },
         {
             "Name": "Corsican pine",
-            "Hex": "76b7b2"
+            "Hex": "001280"
         },
         {
             "Name": "Oak",
-            "Hex": "ff9da7"
+            "Hex": "806b00"
         },
         {
             "Name": "Douglas fir",
-            "Hex": "f28e2b"
+            "Hex": "806b00"
         },
         {
             "Name": "Beech",
-            "Hex": "b07aa1"
+            "Hex": "007f0e"
         },
         {
             "Name": "Spruce (unspecified)",
-            "Hex": "76b7b2"
+            "Hex": "fe6a00"
         },
         {
             "Name": "Ash",
-            "Hex": "ff9da7"
+            "Hex": "0094fe"
         },
         {
             "Name": "Sycamore",
-            "Hex": "f28e2b"
+            "Hex": "00497e"
         },
         {
             "Name": "Pine (unspecified)",
-            "Hex": "76b7b2"
-        },
-        {
-            "Name": "Broadleaf (unspecified)",
-            "Hex": "ff9da7"
-        },
-        {
-            "Name": "Mixture",
-            "Hex": "f28e2b"
+            "Hex": "0026ff"
         }
         ]
     }]
