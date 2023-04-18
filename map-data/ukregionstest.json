@@ -23,7 +23,7 @@
     "BaseLayers": [{
         "File": "NUTS_Topo",
         "Name": "Land",
-        "Description": "Country boundaries at 50km resolution."
+        "Description": "Updated at 15:45"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
