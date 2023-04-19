@@ -21,9 +21,9 @@
     "MapZoomLevel": 11,
     "MaxPieSize": 50,
     "BaseLayers": [{
-        "File": "NUTS_Topo",
+        "File": "NUTS_general",
         "Name": "Land",
-        "Description": "Updated at 21:16"
+        "Description": "Updated at 09:50"
     }],
     "Fields": [{
             "Column": "Which of the following most accurately reflects your position?",
