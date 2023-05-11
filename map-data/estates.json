@@ -15,7 +15,7 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Measurement Indicator",
     "ClusterDistance": 0.01, 
-    "MapCentre": [-1, 53],
+    "MapCentre": [-1, 51],
     "MapZoomLevel": 100,
     "MaxPieSize": 100,
     "BaseLayers": [{
