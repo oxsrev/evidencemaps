@@ -1,0 +1,158 @@
+{
+    "Name": "University of Oxford Estate Biodiversity Evidence Mapping",
+    "Description": "The objective of the current project is to assemble an evidence base with which to establish baseline data for biodiversity on the University estate, without which it will be impossible to provide assurances of future enhancements in biodiversity, and to develop a transparent, repeatable process for finding and documenting changes to biodiversity in any part of the estate through time. A second objective will be to determine whether there are important evidence gaps in the baseline data - parts of the estate that are not well assessed, biodiversity taxa that are under-reported, and absence of time-series data for either.",
+    "PublicationReference": "",
+    "PublicationUrl": "",
+    "Logos": [
+        { "File": "OXSREV",
+        "Name": "Oxford Systematic Reviews",
+        "ExternalUrl": "http://www.oxsrev.org/" },
+        { "File": "oxford",
+        "Name": "University of Oxford",
+        "ExternalUrl": "http://www.ox.ac.uk/" }
+],
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "Biodiversity Measurement Indicator",
+    "ClusterDistance": 0.1, 
+    "MapCentre": [-5, 55],
+    "MapZoomLevel": 13,
+    "MaxPieSize": 50,
+    "BaseLayers": [{
+        "File": "world50",
+        "Name": "Land",
+        "Description": ""
+    }],
+    "Fields": [{
+            "Column": "Biodiversity Measurement Indicator",
+            "Name": "Biodiversity Measurement Indicator",
+            "DataType": "string",
+            "Description": "What taxonomic group was studied?"
+        },
+        {
+            "Column": "Reference Type",
+            "Name": "Reference Type",
+            "DataType": "string",
+            "Description": "What type of reference is the source?"
+        },
+        {
+            "Column": "University of Oxford Estate Area(s)",
+            "Name": "University of Oxford Estate Area(s)",
+            "DataType": "string",
+            "Description": "What area of the estate was being studied?"
+        },
+        {
+            "Column": "Habitat",
+            "Name": "Habitat",
+            "DataType": "string",
+            "Description": "What habitat was being studied?"
+        },
+        {
+            "Column": "Type of Biodiversity Measurement",
+            "Name": "Type of Biodiversity Measurement",
+            "DataType": "string",
+            "Description": ""
+        },
+        {
+            "Column": "Time Series Data Set (2+)",
+            "Name": "Time Series Data Set (2+)",
+            "DataType": "string",
+            "Description": "Were data collected in a time series (2 or more times)"
+        },
+        {
+            "Column": "Soil organic carbon",
+            "Name": "Soil organic carbon",
+            "DataType": "string",
+            "Description": "Did they study measure soil organic carbon"
+        },
+        {
+            "Column": "Study Season(s) (If Applicable)",
+            "Name": "Study Season(s)",
+            "DataType": "string",
+            "Description": "What season were data collected?"
+        },
+        {"Column": "Year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "Description": ""
+        },
+        {"Column": "Study Start Date",
+            "Name": "Study Start Date",
+            "DataType": "float",
+            "Description": ""
+        },
+        {"Column": "Study End Date",
+            "Name": "Study End Date",
+            "DataType": "float",
+            "Description": ""
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Biodiversity Measurement Indicator",
+        "Palette": [{
+            "Name": "Vascular Plants",
+            "Hex": "59a14f"
+        },
+        {
+            "Name": "Mammals",
+            "Hex": "9c755f"
+        },            
+        {
+            "Name": "Insects",
+            "Hex": "edc948"
+        },
+        {
+            "Name": "Birds",
+            "Hex": "ffffff"
+        },
+        {
+            "Name": "Arachnids",
+            "Hex": "e15759"
+        },
+        {
+            "Name": "Non-Vascular plants",
+            "Hex": "b07aa1"
+        },
+        {
+            "Name": "Molluscs",
+            "Hex": "76b7b2"
+        },
+        {
+            "Name": "Annelids",
+            "Hex": "ff9da7"
+        },
+        {
+            "Name": "Crustaceans",
+            "Hex": "f28e2b"
+        },
+        {
+            "Name": "Fungi",
+            "Hex": "b07ab2"
+        },
+        {
+            "Name": "Amphibians",
+            "Hex": "76b7a1"
+        },
+        {
+            "Name": "Myriapods",
+            "Hex": "009da7"
+        },
+        {
+            "Name": "Entognatha",
+            "Hex": "f28e2b"
+        },
+        {
+            "Name": "Nematodes",
+            "Hex": "73ee00"
+        },
+        {
+            "Name": "Lichen",
+            "Hex": "f00f60"
+        },
+        {
+            "Name": "Reptiles",
+            "Hex": "ddbb72"
+        }
+        ]
+    }]
+}
