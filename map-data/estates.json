@@ -17,7 +17,7 @@
     "ClusterDistance": 0.01, 
     "MapCentre": [-5, 53],
     "MapZoomLevel": 60,
-    "MaxPieSize": 20,
+    "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Land",
