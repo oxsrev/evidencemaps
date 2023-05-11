@@ -15,8 +15,8 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Measurement Indicator",
     "ClusterDistance": 0.01, 
-    "MapCentre": [-1, 51],
-    "MapZoomLevel": 100,
+    "MapCentre": [-1, 52],
+    "MapZoomLevel": 110,
     "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
@@ -90,7 +90,7 @@
     "DataPalettes": [{
         "Column": "Biodiversity Measurement Indicator",
         "Palette": [{
-            "Name": "Vascular Plants",
+            "Name": "Vascular plants",
             "Hex": "59a14f"
         },
         {
