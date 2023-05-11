@@ -14,10 +14,10 @@
     "Projection": "standard",
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Measurement Indicator",
-    "ClusterDistance": 0.1, 
+    "ClusterDistance": 0, 
     "MapCentre": [-5, 55],
-    "MapZoomLevel": 13,
-    "MaxPieSize": 50,
+    "MapZoomLevel": 20,
+    "MaxPieSize": 10,
     "BaseLayers": [{
         "File": "world50",
         "Name": "Land",
