@@ -15,8 +15,8 @@
     "DisplayMode": "cluster",
     "DisplayUnit": "Biodiversity Measurement Indicator",
     "ClusterDistance": 0.01, 
-    "MapCentre": [-3, 53],
-    "MapZoomLevel": 80,
+    "MapCentre": [-1, 53],
+    "MapZoomLevel": 100,
     "MaxPieSize": 100,
     "BaseLayers": [{
         "File": "world50",
