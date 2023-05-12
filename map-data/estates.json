@@ -20,7 +20,7 @@
     "MaxPieSize": 150,
     "BaseLayers": [{
         "File": "Oxfordshire",
-        "Name": "Oxfordshire",
+        "Name": "Oxford Estates",
         "Description": ""
     }],
     "Fields": [{
