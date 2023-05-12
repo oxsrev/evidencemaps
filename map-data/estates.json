@@ -19,8 +19,8 @@
     "MapZoomLevel": 110,
     "MaxPieSize": 100,
     "BaseLayers": [{
-        "File": "world50",
-        "Name": "Land",
+        "File": "Oxfordshire",
+        "Name": "Oxfordshire",
         "Description": ""
     }],
     "Fields": [{
