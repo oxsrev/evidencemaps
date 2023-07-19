@@ -31,7 +31,7 @@
         {"Column": "Broadleaf/Conifer",
             "Name": "Broadleaf/Conifer",
             "DataType": "string",
-            "Description": ""
+            "Description": "Were the commercial tree species studied Broadleaf, Conifer, or Unspecified"
         },
         {"Column": "Taxonomic groups",
       "Name": "Taxonomic groups",
@@ -83,17 +83,17 @@
             "DataType": "string",
             "Description": "What type of landuse was the comparator of the study"
         }, 
-        {"Column": "Taxonomic Diversity- Richness (S)",
+        {"Column": "Taxonomic Diversity - Richness (S)",
             "Name": "Taxonomic Diversity - Richness",
             "DataType": "string",
             "Description": "Did the study use Richness as a biodiversity measure?"
         },   
-        {"Column": "Taxonomic Diversity- Abundance (J')",
+        {"Column": "Taxonomic Diversity - Abundance (J')",
             "Name": "Taxonomic Diversity - Abundance",
             "DataType": "string",
             "Description": "Did the study use Abundance as a biodiversity measure?"
         },
-        {"Column": "Taxonomic Diversity- Spp Diversity (Index)",
+        {"Column": "Taxonomic Diversity - Spp Diversity (Index)",
         "Name": "Taxonomic Diversity - Spp Diversity",
         "DataType": "string",
         "Description": "Did the study use Species Richness as a biodiversity measure?"
