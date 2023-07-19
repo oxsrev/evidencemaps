@@ -28,6 +28,11 @@
             "DataType": "string",
             "Description": "What commercial tree species were studied"
         },
+        {"Column": "Broadleaf/Conifer",
+            "Name": "Broadleaf/Conifer",
+            "DataType": "string",
+            "Description": ""
+        },
         {"Column": "Taxonomic groups",
       "Name": "Taxonomic groups",
       "DataType": "string",
@@ -68,7 +73,7 @@
             "DataType": "string",
             "Description": "What type of comparisons did the study make?"
         },  
-        {"Column": "Stand developmental stages (only if clear cut system system compared)",
+        {"Column": "Stand developmental stages",
             "Name": "Stand developmental stages",
             "DataType": "string",
             "Description": "What stage of development were the trees that were studied"
