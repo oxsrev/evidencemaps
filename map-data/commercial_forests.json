@@ -12,7 +12,7 @@
             "ExternalUrl": "https://www.forestresearch.gov.uk/" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Commercial Trees",
+    "DisplayUnit": "Commercial Tree Species (Grouped)",
     "ClusterDistance": 40, 
     "MapCentre": [-5, 55],
     "MapZoomLevel": 11,
@@ -23,7 +23,7 @@
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [
-        {"Column": "Commercial Trees",
+        {"Column": "Commercial tree species",
             "Name": "Commercial Trees",
             "DataType": "string",
             "Description": "What commercial tree species were studied"
@@ -73,7 +73,7 @@
             "DataType": "string",
             "Description": "What stage of development were the trees that were studied"
         }, 
-        {"Column": "Comparator Site (if a chronosequence, select 'Not applicable')",
+        {"Column": "Comparator Site",
             "Name": "Comparator Site",
             "DataType": "string",
             "Description": "What type of landuse was the comparator of the study"
@@ -115,13 +115,13 @@
       }
     ],
     "DataPalettes": [{
-        "Column": "Commercial Trees",
+        "Column": "Commercial Tree Species (Grouped)",
         "Palette": [{
-            "Name": "Sitka spruce",
+            "Name": "Spruce (sitka)",
             "Hex": "fe0000"
         },
         {
-            "Name": "Scots pine",
+            "Name": "Pine (scots)",
             "Hex": "007f0e"
         },            
         {
@@ -133,15 +133,15 @@
             "Hex": "ffffff"
         },
         {
-            "Name": "Norway spruce",
+            "Name": "Spruce (norway)",
             "Hex": "800001"
         },
         {
-            "Name": "Lodgepole pine",
+            "Name": "Pine (logepole)",
             "Hex": "806b00"
         },
         {
-            "Name": "Corsican pine",
+            "Name": "Pine (corsican)",
             "Hex": "ffd800"
         },          
         {
@@ -157,7 +157,7 @@
             "Hex": "001280"
         },
         {
-            "Name": "Spruce (unspecified)",
+            "Name": "Birch",
             "Hex": "fe6a00"
         },
         {
@@ -169,7 +169,7 @@
             "Hex": "590080"
         },
         {
-            "Name": "Pine (unspecified)",
+            "Name": "Unspecified",
             "Hex": "00fe21"
         }
         ]
