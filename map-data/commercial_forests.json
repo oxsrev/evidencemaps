@@ -2,7 +2,7 @@
     "Name": "Systematic evidence evaluation of literature on evidence of biodiversity in UK commercial forests",
     "Description": "A systematic evidence evaluation of the biodiversity supported by commercial forests in Great Britain was undertaken to understand the influence of these forest types on overall levels of biodiversity and to identify gaps in understanding. Such a review is particularly needed at a time of significant declines in biodiversity and associated regulating and provisioning services, set against a backdrop of ambitious plans for widespread afforestation in Britain. The map was constructed using Open-Source software (Martin et al., 2017). Where no site-specific geo-location was reported in the study, but there was an indication of location (e.g. nearest town, country, etc.), or where the study sites referred to a wide geographical area, centroid data were used to generate the map reference.",
     "PublicationReference": "For help using the map click here",
-    "PublicationUrl": "https://github.com/oxsrev/evidencemaps/blob/master/Map%20User%20Guides/Commercial%20Forests%20User%20Guide.docx.pdf",
+    "PublicationUrl": "https://github.com/oxsrev/evidencemaps/blob/master/Map%20User%20Guides/Map%20User%20Guide.docx.pdf",
     "Logos": [
         { "File": "OXSREV",
           "Name": "Oxford Systematic Reviews",
