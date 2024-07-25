@@ -103,8 +103,8 @@
         "DataType": "string",
         "Description": "Did the study use Species Richness as a biodiversity measure?"
          },   
-         {"Column": "Community -Composition ",
-        "Name": "Community - Composition ",
+         {"Column": "Community -Composition",
+        "Name": "Community - Composition",
         "DataType": "string",
         "Description": "Did the study measure Community Composition?"
          },     
