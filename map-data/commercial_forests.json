@@ -155,10 +155,6 @@
             "Hex": "ffd800"
         },          
         {
-            "Name": "Oak",
-            "Hex": "00497e"
-        },
-        {
             "Name": "Douglas fir",
             "Hex": "0026ff"
         },
@@ -177,6 +173,10 @@
         {
             "Name": "Sycamore",
             "Hex": "590080"
+        },
+        {
+            "Name": "Oak",
+            "Hex": "00497e"
         },
         {
             "Name": "Hemlock",
