@@ -23,10 +23,10 @@
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [
-            {"Column": "Project",
-            "Name": "Project",
+            {"Column": "Traditional/Emerging tree species",
+            "Name": "Traditional/Emerging tree species",
             "DataType": "string",
-            "Description": "In which project was this study coded?"
+            "Description": "Was the study looking at traditional or emerging commercial tree species"
         },
             {"Column": "Commercial tree species",
             "Name": "Commercial Trees",
@@ -180,15 +180,15 @@
         },
         {
             "Name": "Hemlock",
-            "Hex": "111111"
+            "Hex": "800001"
         },
         {
             "Name": "Eucalyptus",
-            "Hex": "111111"
+            "Hex": "00497e"
         },
         {
             "Name": "Poplar",
-            "Hex": "111111"
+            "Hex": "fe6a00"
         },
         {
             "Name": "Unspecified",
