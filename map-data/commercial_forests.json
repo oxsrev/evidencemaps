@@ -23,6 +23,11 @@
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [
+            {"Column": "Project",
+            "Name": "Project",
+            "DataType": "string",
+            "Description": "In which project was this study coded?"
+        },
             {"Column": "Commercial tree species",
             "Name": "Commercial Trees",
             "DataType": "string",
