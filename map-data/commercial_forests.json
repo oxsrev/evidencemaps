@@ -12,7 +12,7 @@
             "ExternalUrl": "https://www.forestresearch.gov.uk/" }],
     "Projection": "standard",
     "DisplayMode": "cluster",
-    "DisplayUnit": "Commercial Tree Species (Grouped)",
+    "DisplayUnit": "Native/Non-Native Commercial Tree Species",
     "ClusterDistance": 40, 
     "MapCentre": [-5, 55],
     "MapZoomLevel": 11,
@@ -23,6 +23,11 @@
         "Description": "Country boundaries at 50km resolution."
     }],
     "Fields": [
+            {"Column": "Native/Non-Native Commercial Tree Species",
+            "Name": "Native/Non-Native Commercial Tree Species",
+            "DataType": "string",
+            "Description": "Is the commercial tree species being studied native or non-native to the UK"
+        },
             {"Column": "Traditional/Emerging tree species",
             "Name": "Traditional/Emerging tree species",
             "DataType": "string",
@@ -125,74 +130,19 @@
       }
     ],
     "DataPalettes": [{
-        "Column": "Commercial Tree Species (Grouped)",
-        "Palette": [{
-            "Name": "Spruce (sitka)",
-            "Hex": "fe0000"
-        },
+        "Column": "Native/Non-Native Commercial Tree Species",
+        "Palette": [
         {
-            "Name": "Pine (scots)",
+            "Name": "Native",
             "Hex": "007f0e"
         },            
         {
-            "Name": "Larch",
+            "Name": "Non-native",
             "Hex": "0094fe"
         },
         {
-            "Name": "Conifer (unspecified)",
-            "Hex": "ffffff"
-        },
-        {
-            "Name": "Spruce (norway)",
-            "Hex": "800001"
-        },
-        {
-            "Name": "Pine (logepole)",
-            "Hex": "806b00"
-        },
-        {
-            "Name": "Pine (corsican)",
-            "Hex": "ffd800"
-        },          
-        {
-            "Name": "Douglas fir",
-            "Hex": "0026ff"
-        },
-        {
-            "Name": "Beech",
-            "Hex": "001280"
-        },
-        {
-            "Name": "Birch",
+            "Name": "Not specified",
             "Hex": "fe6a00"
-        },
-        {
-            "Name": "Ash",
-            "Hex": "b100fe"
-        },
-        {
-            "Name": "Sycamore",
-            "Hex": "590080"
-        },
-        {
-            "Name": "Oak",
-            "Hex": "00497e"
-        },
-        {
-            "Name": "Hemlock",
-            "Hex": "800001"
-        },
-        {
-            "Name": "Eucalyptus",
-            "Hex": "00497e"
-        },
-        {
-            "Name": "Poplar",
-            "Hex": "fe6a00"
-        },
-        {
-            "Name": "Unspecified",
-            "Hex": "00fe21"
         }
         ]
     }]
